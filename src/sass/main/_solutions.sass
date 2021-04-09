@@ -1,0 +1,116 @@
+.solutions
+    padding: 57px 0 60px
+    overflow: hidden
+    &-wrapper
+        display: flex
+    &__cards-wrapper
+        display: grid
+        margin-left: 45px
+        grid-template-columns: repeat(3, 351px)
+        grid-template-rows: repeat(2, 401px)
+        grid-column-gap: 25px
+        grid-row-gap: 19px
+        margin-top: 30px
+        padding-left: 10px
+    &__description
+        transform: translateX(10px)
+.solution-description
+    width: 413px
+    padding: 60px 30px 80px 30px
+    background: linear-gradient(140.95deg, #FFFFFF 0%, #F4F1F1 100%)
+    border-radius: 10px
+    position: relative
+    height: 573px
+    &__bg-text
+        position: absolute
+        top: 40px
+        left: 50%
+        transform: translateX(-50%)
+        width: 413px
+        z-index: 1
+        height: 95px
+    &__title
+        font-style: normal
+        font-weight: 600
+        font-size: 48px
+        line-height: 58px
+        position: relative
+        z-index: 2
+        padding-bottom: 74px
+        color: $gray
+    &__description
+        font-style: normal
+        font-weight: normal
+        position: relative
+        font-size: 24px
+        z-index: 2
+        line-height: 29px
+    &__red-sub
+        font-weight: bold
+        color: $red
+    &__black-sub
+        font-weight: bold
+.solution-card
+    overflow: hidden
+    position: relative
+    border-radius: 10px
+    padding: 25px
+    display: flex
+    cursor: pointer
+    align-items: flex-start
+    &__hover-effect
+        background: linear-gradient(32.62deg, #353535 0%, rgba(53, 53, 53, 0) 100%)
+        position: absolute
+        z-index: 2
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        width: 100%
+        height: 100%
+    &__background
+        width: 100%
+        height: 100%
+        position: absolute
+        object-fit: cover
+        z-index: 1
+        left: 0
+        top: 0
+        right: 0
+        bottom: 0
+    &__title
+        position: relative
+        z-index: 3
+        margin-bottom: 20px
+        font-style: normal
+        font-weight: 600
+        font-size: 24px
+        line-height: 29px
+        color: white
+    &__text-wrapper
+        margin-top: auto
+    &__description
+        position: relative
+        z-index: 3
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 22px
+        margin-bottom: 10px
+        color: white
+    &__circle
+        width: 240px
+        height: 240px
+        background-color: $gray
+        border-radius: 50%
+        position: absolute
+        bottom: -120px
+        right: -120px
+        z-index: 2
+        transition: 0.4s
+
+@media screen and ( min-width: 993px)
+    .solution-card:hover .solution-card__hover-effect
+        background: linear-gradient(32.62deg, #FF537C 0%, rgba(255, 83, 124, 0) 100%)
+    .solution-card:hover  .solution-card__circle
+        background-color: #FF537C

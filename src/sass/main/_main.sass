@@ -1,0 +1,130 @@
+.hero
+    padding: 0px 0 155px 0
+    background-image: url('../img/main/main/mainBg.jpg')
+    background-size: cover
+    background-position: center center
+    position: relative
+    overflow: hidden
+    &__content-wrapper
+        display: flex
+        justify-content: space-between
+        position: relative
+        z-index: 2
+    &__text-wrapper
+        margin-top: 90px
+    &__title
+        font-style: normal
+        font-weight: 600
+        font-size: 64px
+        line-height: 78px
+        max-width: 564px
+        color: $white
+        &-sub
+            color: $red
+    &__description
+        font-style: normal
+        font-weight: normal
+        font-size: 36px
+        line-height: 44px
+        color: $white
+        padding-top: 26px
+        margin-bottom: 60px
+        max-width: 565px
+    &__button
+        background: #FFFFFF
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25)
+        border-radius: 10px
+        padding: 14px 25px
+        font-style: normal
+        font-weight: 600
+        font-size: 24px
+        line-height: 29px
+        transition: 0.4s
+        color: #353535
+    &__action-card
+        margin-top: 173px
+        transform: translateX(-20px)
+    &__to-bottom-btn
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        bottom: 23px
+        z-index: 2
+    &__ellipses-group
+        z-index: 0
+        position: absolute
+        bottom: -420px
+        left: 50%
+        transform: translateX(-50%)
+.action-card
+    width: 352px
+    height: 217px
+    padding: 25px
+    background: linear-gradient(112.05deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.23) 100%)
+    backdrop-filter: blur(10px)
+    border-radius: 10px
+    position: relative
+    &__title
+        color: $gray
+        font-style: normal
+        font-weight: 600
+        font-size: 24px
+        line-height: 29px
+        padding-bottom: 15px
+    &__description
+        color: $gray
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 19px
+        max-width: 257px
+    &__button
+        width: 100%
+        padding: 17px 0
+        display: flex
+        justify-content: center
+        background: linear-gradient(91.45deg, #FF537C 0%, rgba(255, 83, 124, 0.38) 100%)
+        backdrop-filter: blur(10px)
+        font-style: normal
+        font-weight: 600
+        font-size: 18px
+        border-radius: 0px 0px 10px 10px
+        line-height: 22px
+        color: white
+        transition: 0.4s
+        &-wrapper
+            position: absolute
+            bottom: 0
+            left: 0
+            right: 0
+        &-text
+            max-width: 220px
+            overflow: hidden
+            text-overflow: ellipsis
+            white-space: nowrap
+    &__icon
+        position: absolute
+        right: -20px
+        top: -20px
+.to-bottom-btn
+    width: 56px
+    height: 17px
+    background: transparent
+    border: none
+    stroke: white
+    transition: 0.4s
+    &__icon
+        width: inherit
+        height: inherit
+@media screen and ( min-width: 993px )
+    .hero
+        &__button
+            &:hover
+                box-shadow: 0px 0px 30px rgb(255, 255, 255)
+    .action-card
+        &__button
+            &:hover
+                color: #ffddf4
+    .to-bottom-btn
+        &:hover
+            stroke: lighten($purple, 20%)

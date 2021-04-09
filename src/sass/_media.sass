@@ -1,1 +1,275 @@
-
+@media screen and ( max-width: 1600px )
+    .solutions
+        &__cards-wrapper
+            grid-template-columns: repeat(3,302px)
+            grid-template-rows: repeat(2,375px)
+    .solution-card
+        &__title
+            font-size: 22px
+        &__description
+            font-size: 16px
+    .solution-description
+        width: 360px
+        &__description
+            font-size: 18px
+        &__title
+            font-size: 35px
+            padding-bottom: 40px
+        &__bg-text
+            width: 360px
+@media screen and ( max-width: 1440px )
+    .container
+        max-width: 1280px
+    .solutions
+        &__cards-wrapper
+            grid-template-columns: repeat(3, 276px)
+            grid-template-rows: repeat(2, 345px)
+            grid-column-gap: 10px
+            grid-row-gap: 19px
+    .solution-card
+        padding: 19px
+        &__title
+            font-size: 24px
+        &__description
+            font-size: 18px
+@media screen and ( max-width: 1300px )
+    .solutions
+        &__cards-wrapper
+            grid-template-columns: repeat(3, 226px)
+            grid-template-rows: repeat(2, 305px)
+    .solution-card
+        &__title
+            font-size: 17px
+            margin-bottom: 10px
+        &__description
+            font-size: 15px
+    .solution-description
+        height: 490px
+        width: 320px
+        &__description
+            font-size: 16px
+        &__bg-text
+            width: 320px
+@media screen and ( max-width: 1200px )
+    .header-menu
+        &__link
+            font-size: 16px
+        &__item
+            margin-right: 10px
+    .demo-button
+        font-size: 16px
+    .action-card
+        width: 320px
+        height: 205px
+        &__title
+            font-size: 21px
+            max-width: 225px
+        &__description
+            font-size: 14px
+            max-width: 215px
+        &__button
+            padding: 12px 0
+            font-size: 17px
+    .hero
+        padding: 0 0 115px
+        &__title
+            font-size: 58px
+            max-width: 495px
+            line-height: 70px
+        &__description
+            font-size: 25px
+        &__button
+            font-size: 20px
+    .about
+        &__title
+            font-size: 40px
+            padding-bottom: 30px
+        &__description
+            font-size: 24px
+            line-height: 36px
+            max-width: 627px
+    .solutions__cards-wrapper
+        grid-template-columns: repeat(3,200px)
+        grid-template-rows: repeat(2,280px)
+    .solution-card
+        padding: 20px
+        &__description
+            font-size: 13px
+        &__title
+            font-size: 15px
+        &__circle
+            bottom: -60px
+            right: -60px
+            width: 120px
+            height: 120px
+@media screen and ( max-width: 992px )
+    .header-menu
+        &__link
+            font-size: 14px
+    .header
+        &__menu
+            margin-left: 30px
+    .logo
+        width: 100px
+        height: 22px
+    .demo-button
+        font-size: 15px
+        padding: 7px 20px
+    .hero
+        padding: 0 0 90px
+        &__title
+            font-size: 53px
+            max-width: 475px
+            line-height: 65px
+        &__description
+            margin-bottom: 40px
+            font-size: 21px
+        &__text-wrapper
+            margin-top: 65px
+        &__action-card
+            margin-top: 130px
+        &__ellipses-group
+            bottom: -265px
+            height: 516px
+            width: 516px
+        &__to-bottom-btn
+            bottom: 17px
+    .action-card
+        width: 260px
+        height: 175px
+        &__title
+            font-size: 18px
+            line-height: 22px
+        &__description
+            font-size: 13px
+            max-width: 188px
+        &__button
+            padding: 9px 0
+            font-size: 14px
+        &__icon
+            width: 57px
+            height: 57px
+    .to-bottom-btn
+        &__icon
+            height: 14px
+    .about
+        &__ellipses-group
+            top: -252px
+            width: 516px
+            height: 516px
+        &__title
+            font-size: 32px
+            padding-bottom: 20px
+@media screen and ( max-width: 800px )
+    .header-menu
+        &__link
+            font-size: 12px
+        &__item
+            margin-right: 5px
+    .header
+        &__menu
+            margin-left: 20px
+    .hero
+        &__title
+            font-size: 50px
+            max-width: 420px
+            line-height: 60px
+        &__button
+            font-size: 16px
+        &__description
+            margin-bottom: 35px
+            padding-top: 15px
+@media screen and ( max-width: 768px )
+    .mobile-menu
+        display: flex
+        justify-content: center
+        position: fixed
+        left: 50%
+        top: 50%
+        transition: 0.4s
+        width: 100%
+        height: 100vh
+        z-index: 5
+        transform: translate(-50%, 150%)
+        align-items: center
+        background-color: rgba(0, 0, 0, 0.95)
+        &__item
+            padding-bottom: 30px
+            text-align: center
+        &__link
+            font-size: 16px
+            color: white
+        &__list
+            overflow-y: auto
+    .header-menu
+        display: none
+    .header
+        &__demo-button
+            margin-left: 30px
+        &__burger-button
+            margin-left: auto
+    .burger-button
+        display: flex
+        z-index: 10
+        &--active
+            position: fixed
+    .hero
+        &__content-wrapper
+            flex-direction: column
+        &__action-card
+            margin-top: 70px
+            transform: translateX(0px)
+        &__text-wrapper
+            margin-top: 40px
+    .about
+        padding: 31px 0 65px
+        &__description
+            font-size: 17px
+            line-height: 31px
+            max-width: 440px
+@media screen and ( max-width: 480px )
+    .hero
+        padding: 0 0 78px
+        &__title
+            font-size: 40px
+            line-height: 49px
+            max-width: 285px
+        &__description
+            font-size: 22px
+            line-height: 27px
+            margin-bottom: 45px
+        &__button
+            font-size: 24px
+        &__action-card
+            margin-top: 53px
+    .action-card
+        width: 100%
+        height: 217px
+        &__icon
+            display: none
+        &__title
+            font-size: 22px
+            line-height: 29px
+            max-width: 345px
+        &__description
+            font-size: 16px
+            max-width: 241px
+        &__button
+            padding: 17px 0
+            font-size: 18px
+    .demo-button
+        font-size: 14px
+        padding: 5px 20px
+    .logo
+        width: 109px
+        height: 25px
+    .header
+        padding-top: 37px
+    .about
+        &__title
+            font-size: 26px
+            padding-bottom: 5px
+        &__description
+            font-size: 14px
+            line-height: 25px
+            max-width: 356px
