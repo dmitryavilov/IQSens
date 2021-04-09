@@ -13,6 +13,9 @@ import Scard3 from '../img/main/solutions/scard3.png';
 import Scard4 from '../img/main/solutions/scard4.png';
 import Scard5 from '../img/main/solutions/scard5.png';
 import Scard6 from '../img/main/solutions/scard6.png';
+import Iphone from '../img/main/solutions/iphone.png';
+import Donut from '../img/main/solutions/donut.png';
+import DotCircle from '../img/main/solutions/dotcircle.png';
 // Шрифты
 import Proxima1 from '../fonts/ProximaNova-Regular.woff2';
 import Proxima2 from '../fonts/ProximaNova-Bold.woff2';

@@ -15,8 +15,6 @@
         &__title
             font-size: 35px
             padding-bottom: 40px
-        &__bg-text
-            width: 360px
 @media screen and ( max-width: 1440px )
     .container
         max-width: 1280px
@@ -26,6 +24,16 @@
             grid-template-rows: repeat(2, 345px)
             grid-column-gap: 10px
             grid-row-gap: 19px
+        &__purple-circle
+            right: -533px
+            bottom: -533px
+        &__donut
+            bottom: -379px
+            right: 0px
+        &__dot-circle
+            width: 189px
+            height: 355px
+            bottom: -145px
     .solution-card
         padding: 19px
         &__title
@@ -48,8 +56,20 @@
         width: 320px
         &__description
             font-size: 16px
-        &__bg-text
-            width: 320px
+    .free-access
+        padding: 35px 50px 48px
+        &__title
+            font-size: 41px
+            line-height: 50px
+            max-width: 710px
+        &__description
+            font-size: 23px
+            padding-bottom: 55px
+        &__button
+            font-size: 22px
+        &__phone-img
+            width: 300px
+            height: 430px
 @media screen and ( max-width: 1200px )
     .header-menu
         &__link
@@ -88,20 +108,62 @@
             font-size: 24px
             line-height: 36px
             max-width: 627px
-    .solutions__cards-wrapper
-        grid-template-columns: repeat(3,200px)
-        grid-template-rows: repeat(2,280px)
+    .solutions
+        &__cards-wrapper
+            grid-template-columns: repeat(3,200px)
+            grid-template-rows: repeat(2,280px)
+        &__purple-circle
+            width: 900px
+            height: 900px
+        &__donut
+            width: 300px
+            height: 496px
+            bottom: -232px
+            right: -33px
+        &__gray-circle
+            width: 481px
+            height: 481px
+            top: 250px
+        &__free-access
+            margin-top: 200px
     .solution-card
         padding: 20px
         &__description
             font-size: 13px
         &__title
-            font-size: 15px
+            font-size: 14px
         &__circle
             bottom: -60px
             right: -60px
             width: 120px
             height: 120px
+    .free-access
+        padding: 20px 35px 40px
+        &__title
+            font-size: 30px
+            line-height: 40px
+            max-width: 516px
+        &__phone-img
+            width: 260px
+            height: 365px
+        &__button
+            font-size: 17px
+        &__description
+            font-size: 20px
+            padding-bottom: 40px
+@media screen and ( max-width: 1100px )
+    .solutions
+        &__cards-wrapper
+            grid-template-columns: repeat(3,180px)
+            grid-template-rows: repeat(2,260px)
+    .solution-card
+        padding: 11px
+        &__title
+            font-size: 14px
+    .solution-description
+        width: 280px
+        &__description
+            font-size: 15px
 @media screen and ( max-width: 992px )
     .header-menu
         &__link
@@ -160,6 +222,20 @@
         &__title
             font-size: 32px
             padding-bottom: 20px
+    .solutions
+        &__cards-wrapper
+            grid-template-columns: repeat(2,220px)
+            grid-column-gap: 22px
+            grid-template-rows: repeat(3,260px)
+@media screen and ( max-width: 860px )
+    .solutions
+        &__cards-wrapper
+            grid-template-columns: repeat(2,189px)
+    .solution-description
+        padding: 35px 16px 70px
+        &__description
+            line-height: 25px
+            font-size: 14px
 @media screen and ( max-width: 800px )
     .header-menu
         &__link
@@ -224,9 +300,48 @@
     .about
         padding: 31px 0 65px
         &__description
-            font-size: 17px
+            font-size: 16px
             line-height: 31px
             max-width: 440px
+    .solution-card
+        &__title
+            font-size: 12px
+            margin-bottom: 7px
+        &__description
+            font-size: 12px
+    .solutions__cards-wrapper
+        grid-template-columns: repeat(2,175px)
+    .solution-description
+        height: 420px
+        &__description
+            line-height: 24px
+            font-size: 13px
+        &__title
+            font-size: 30px
+@media screen and ( max-width: 700px )
+    .solutions-wrapper
+        align-items: center
+        flex-direction: column
+    .solutions
+        &__cards-wrapper
+            margin-left: 0
+            grid-template-columns: repeat(2,48%)
+            grid-template-rows: repeat(3, 260px)
+            grid-column-gap: unset
+            justify-content: space-between
+        &__description
+            transform: translateX(0)
+    .solution-description
+        width: 100%
+        height: 345px
+        &__description
+            line-height: 27px
+            font-size: 18px
+    .solution-card
+        &__title
+            font-size: 17px
+        &__description
+            font-size: 14px
 @media screen and ( max-width: 480px )
     .hero
         padding: 0 0 78px
@@ -273,3 +388,12 @@
             font-size: 14px
             line-height: 25px
             max-width: 356px
+    .solutions
+        &__cards-wrapper
+            grid-template-columns: repeat(1,90%)
+            grid-template-rows: repeat(6,243px)
+            justify-content: center
+    .solution-description
+        height: unset
+        &__description
+            font-size: 18px
