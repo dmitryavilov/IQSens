@@ -40,6 +40,9 @@
             font-size: 24px
         &__description
             font-size: 18px
+    .reason-card
+        &__description
+            max-width: 313px
 @media screen and ( max-width: 1300px )
     .solutions
         &__cards-wrapper
@@ -70,6 +73,28 @@
         &__phone-img
             width: 300px
             height: 430px
+    .reasons
+        &__cards-wrapper
+            grid-template-columns: repeat(3,380px)
+    .reason-card
+        &__text-wrapper
+            width: 347px
+            min-height: 318px
+            padding-left: 25px
+        &__strong
+            padding-top: 20px
+        &__title
+            font-size: 28px
+            line-height: 35px
+        &__purple-circle
+            width: 292px
+            height: 293px
+        &__circles
+            bottom: -135px
+            right: -136px
+        &__description
+            font-size: 21px
+            line-height: 26px
 @media screen and ( max-width: 1200px )
     .header-menu
         &__link
@@ -151,6 +176,21 @@
         &__description
             font-size: 20px
             padding-bottom: 40px
+    .reasons
+        &__cards-wrapper
+            grid-template-columns: repeat(3,300px)
+    .reason-card
+        &__text-wrapper
+            width: 275px
+        &__title
+            font-size: 24px
+            line-height: 32px
+        &__purple-circle
+            width: 250px
+            height: 250px
+        &__circles
+            bottom: -159px
+            right: -159px
 @media screen and ( max-width: 1100px )
     .solutions
         &__cards-wrapper
@@ -227,6 +267,64 @@
             grid-template-columns: repeat(2,220px)
             grid-column-gap: 22px
             grid-template-rows: repeat(3,260px)
+            margin-left: auto
+    .reasons
+        position: relative
+        &__cards-wrapper
+            grid-template-columns: repeat(2,45%)
+        &__gradient-circle
+            width: 300px
+            height: 300px
+            background: linear-gradient(315deg, #FF537C 0%, rgba(255, 255, 255, 0) 100%), #F2F2F2
+            border-radius: 50%
+            position: absolute
+            top: 50%
+            transform: translateY(-110%)
+            right: -130px
+        &__gray-circle
+            width: 350px
+            height: 350px
+            background: linear-gradient(315deg, #D4D4D4 0%, rgba(255, 255, 255, 0) 100%), #F2F2F2
+            border-radius: 50%
+            position: absolute
+            top: 50%
+            transform: translateY(10%)
+            left: -160px
+    .reason-card
+        display: flex
+        justify-content: center
+        height: 330px
+        &__text-wrapper
+            width: 100%
+            padding-right: 10px
+        &:nth-child(3n)
+            grid-column-start: 1
+            grid-column-end: 3
+        &:nth-child(3n) > &__text-wrapper
+            width: 45%
+        &__purple-circle, &__circles
+            display: none
+        &__title
+            font-size: 31px
+            line-height: 37px
+        &__description
+            font-size: 23px
+            line-height: 30px
+@media screen and ( max-width: 900px )
+    .free-access
+        &__title
+            font-size: 28px
+            line-height: 35px
+            max-width: 400px
+            padding-bottom: 10px
+        &__description
+            font-size: 16px
+        &__button
+            font-size: 15px
+        &__phone-img
+            width: 235px
+            height: 327px
+            right: 20px
 @media screen and ( max-width: 860px )
     .solutions
         &__cards-wrapper
@@ -318,6 +416,51 @@
             font-size: 13px
         &__title
             font-size: 30px
+    .free-access
+        padding: 0
+        &__text-wrapper
+            background: white
+            z-index: 3
+            position: relative
+            padding: 20px 35px 40px
+            border-radius: 10px
+        &__phone-img
+            z-index: 2
+            bottom: 40px
+        &__title
+            font-size: 31px
+            line-height: 41px
+            max-width: 480px
+        &__description
+            font-size: 18px
+        &__dot-circle
+            width: 180px
+            height: 360px
+    .solutions
+        &__dot-circle
+            bottom: -150px
+            left: -25px
+        &__purple-circle
+            width: 800px
+            height: 800px
+        &__donut
+            width: 255px
+            height: 430px
+            bottom: -246px
+            right: -67px
+    .reason-card
+        height: 290px
+        &__description
+            font-size: 18px
+            line-height: 27px
+        &__text-wrapper
+            min-height: 290px
+            padding-left: 15px
+        &__title
+            font-size: 26px
+            line-height: 33px
+        &__strong
+            padding-top: 10px
 @media screen and ( max-width: 700px )
     .solutions-wrapper
         align-items: center
@@ -342,6 +485,30 @@
             font-size: 17px
         &__description
             font-size: 14px
+@media screen and ( max-width: 576px )
+    .solutions
+        clip-path: ellipse(290% 130% at 50% -30%)
+        &__dot-circle
+            display: none
+        &__donut
+            bottom: 140px
+            right: -67px
+        &__purple-circle
+            width: 500px
+            height: 500px
+            right: -250px
+            bottom: 105px
+        &__cards-wrapper
+            padding-left: 0
+    .reason-card
+        &__title
+            font-size: 22px
+            line-height: 27px
+        &__description
+            font-size: 15px
+            line-height: 25px
+        &__strong
+            font-size: 56px
 @media screen and ( max-width: 480px )
     .hero
         padding: 0 0 78px
@@ -393,7 +560,80 @@
             grid-template-columns: repeat(1,90%)
             grid-template-rows: repeat(6,243px)
             justify-content: center
+            padding-left: 0
+        &__free-access
+            margin-top: 234px
+        &__purple-circle
+            width: 380px
+            height: 380px
+            right: -190px
+            bottom: 330px
+        &__donut
+            bottom: 350px
+            right: -35px
+            width: 193px
+            height: 330px
     .solution-description
         height: unset
         &__description
             font-size: 18px
+    .free-access
+        &__phone-img
+            transform: translateX(50%)
+            right: 50%
+            width: 280px
+            height: 387px
+            bottom: 87px
+        &__title
+            font-size: 30px
+            line-height: 37px
+            padding-bottom: 30px
+        &__description
+            font-size: 18px
+            line-height: 22px
+            padding-bottom: 50px
+        &__text-wrapper
+            padding: 25px 20px 40px
+    .reason-card
+        height: 242px
+        display: block
+        &:nth-child(3n)
+            grid-column-start: 1
+            grid-column-end: 2
+        &:nth-child(3n) > &__text-wrapper
+            max-width: 315px
+            width: unset
+        &__text-wrapper
+            max-width: 315px
+            min-height: 242px
+            max-height: 242px
+            padding-left: 20px
+            padding-top: 30px
+            padding-bottom: 40px
+        &__description
+            font-size: 18px
+            line-height: 22px
+        &:nth-child(2n) > &__text-wrapper
+            margin-left: auto
+        &__strong
+            padding-top: 0px
+    .reasons
+        &__cards-wrapper
+            grid-template-columns: repeat(1, 100%)
+        &__gradient-circle
+            top: 50%
+            transform: translateY(-65%)
+            right: -62px
+            width: 219px
+            height: 219px
+        &__gray-circle
+            width: 323px
+            height: 323px
+            transform: translateY(25%)
+            left: -90px
+        &__title
+            font-size: 30px
+            padding-left: 20px
+        &__cards-wrapper
+            margin-top: 30px
+            grid-row-gap: 20px

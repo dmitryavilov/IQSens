@@ -16,6 +16,8 @@ import Scard6 from '../img/main/solutions/scard6.png';
 import Iphone from '../img/main/solutions/iphone.png';
 import Donut from '../img/main/solutions/donut.png';
 import DotCircle from '../img/main/solutions/dotcircle.png';
+import ReasonsBg from '../img/main/reasons/reasonsBg.png';
+import CircleGroups from '../img/main/reasons/circleGroup.png';
 // Шрифты
 import Proxima1 from '../fonts/ProximaNova-Regular.woff2';
 import Proxima2 from '../fonts/ProximaNova-Bold.woff2';

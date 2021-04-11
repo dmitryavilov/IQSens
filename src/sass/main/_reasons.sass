@@ -1,0 +1,92 @@
+.reasons
+    position: relative
+    background-color: #fff
+    overflow: hidden
+    z-index: 2
+    padding-top: 100px
+    margin-top: -100px
+    &__bg
+        position: absolute
+        top: -50px
+        z-index: 3
+        width: 100%
+        object-fit: cover
+    &__container
+        position: relative
+        z-index: 4
+    &__title
+        font-style: normal
+        font-weight: 600
+        font-size: 48px
+        line-height: 58px
+        color: $gray
+        padding-top: 35px
+    &__cards-wrapper
+        display: grid
+        grid-template-columns: repeat(3, 413px)
+        justify-content: space-between
+        grid-row-gap: 30px
+        margin-top: 44px
+.reason-card
+    height: 383px
+    position: relative
+    cursor: pointer
+    &__text-wrapper
+        padding-top: 40px
+        padding-bottom: 50px
+        position: relative
+        width: 383px
+        padding-left: 35px
+        background: linear-gradient(112.05deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.23) 100%)
+        backdrop-filter: blur(10px)
+        border-radius: 10px
+        border: 2px solid #e2e2e282
+        z-index: 2
+        min-height: 353px
+        display: flex
+        flex-direction: column
+    &__title
+        color: $gray
+        font-weight: 600
+        font-size: 36px
+        line-height: 44px
+        padding-bottom: 27px
+        max-width: 313px
+    &__description
+        color: $gray
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 29px
+        margin-top: auto
+    &__purple-circle
+        width: 323px
+        height: 323px
+        z-index: 1
+        border-radius: 50%
+        background-color: #F2F2F2
+        transition: 0.4s
+        position: absolute
+        bottom: 0
+        right: 0
+    &__strong
+        font-weight: 600
+        font-size: 64px
+        line-height: 78px
+        color: $gray
+        padding-top: 42px
+    &__circles
+        width: 564px
+        bottom: -121px
+        right: -121px
+        height: 564px
+        object-fit: cover
+        position: absolute
+        z-index: 0
+        opacity: 0
+        transition: 0.4s
+@media screen and ( min-width: 993px )
+    .reason-card:hover > .reason-card__purple-circle
+        background-color: #ff7595
+    .reason-card:hover > .reason-card__circles
+        opacity: 1
