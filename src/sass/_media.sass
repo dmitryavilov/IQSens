@@ -1,3 +1,9 @@
+@media screen and ( max-width: 1800px )
+    .company
+        width: 100%
+    .companies-wrapper
+        &__content
+            grid-template-columns: repeat(5,256px)
 @media screen and ( max-width: 1600px )
     .solutions
         &__cards-wrapper
@@ -15,6 +21,16 @@
         &__title
             font-size: 35px
             padding-bottom: 40px
+    .companies-wrapper
+        padding: 80px 0
+        &__content
+            grid-template-columns: repeat(5,240px)
+            padding: 8px 80px
+    .trust
+        &__company
+            &:nth-child(9)
+                height: 95px
+                width: 67%
 @media screen and ( max-width: 1440px )
     .container
         max-width: 1280px
@@ -43,6 +59,29 @@
     .reason-card
         &__description
             max-width: 313px
+    .feedback
+        &__purple-donut
+            width: 559px
+            height: 677px
+            bottom: 97px
+            left: -15px
+        &__purple-circle
+            bottom: 67px
+            left: -165px
+            width: 708px
+            height: 708px
+        &__decorative-line
+            width: 1440px
+            bottom: -8px
+            left: 8px
+    .footer
+        &__figures
+            bottom: -8px
+            right: -115px
+@media screen and ( max-width: 1400px )
+    .companies-wrapper
+        &__content
+            grid-template-columns: repeat(5,220px)
 @media screen and ( max-width: 1300px )
     .solutions
         &__cards-wrapper
@@ -95,6 +134,9 @@
         &__description
             font-size: 21px
             line-height: 26px
+    .companies-wrapper
+        &__content
+            grid-template-columns: repeat(5,200px)
 @media screen and ( max-width: 1200px )
     .header-menu
         &__link
@@ -191,6 +233,31 @@
         &__circles
             bottom: -159px
             right: -159px
+    .companies-wrapper
+        &__content
+            grid-template-columns: repeat(5,180px)
+    .feedback-form
+        max-width: 435px
+        &__title
+            font-size: 40px
+        &__description
+            font-size: 25px
+            padding-bottom: 30px
+            line-height: 33px
+        &__button
+            padding: 14px 70px
+    .feedback
+        &__purple-donut
+            width: 498px
+            height: 603px
+        &__decorative-line
+            width: 1208px
+            bottom: -10px
+        &__cube
+            width: 270px
+        &__purple-circle
+            width: 650px
+            height: 650px
 @media screen and ( max-width: 1100px )
     .solutions
         &__cards-wrapper
@@ -204,6 +271,9 @@
         width: 280px
         &__description
             font-size: 15px
+    .companies-wrapper
+        &__content
+            grid-template-columns: repeat(5,160px)
 @media screen and ( max-width: 992px )
     .header-menu
         &__link
@@ -310,6 +380,34 @@
         &__description
             font-size: 23px
             line-height: 30px
+    .companies-wrapper
+        &__content
+            grid-template-columns: repeat(3,230px)
+    .trust
+        &__title
+            transform: translateX(0px)
+    .feedback
+        &__purple-donut
+            width: 395px
+            height: 474px
+            bottom: 127px
+        &__purple-circle
+            width: 590px
+            height: 590px
+        &__decorative-line
+            display: none
+    .feedback-form
+        max-width: 395px
+        padding: 30px 40px 40px
+        &__title
+            font-size: 35px
+        &__description
+            font-size: 22px
+            padding-bottom: 17px
+            line-height: 30px
+    .footer
+        &__figures
+            width: 500px
 @media screen and ( max-width: 900px )
     .free-access
         &__title
@@ -325,6 +423,9 @@
             width: 235px
             height: 327px
             right: 20px
+    .companies-wrapper
+        &__content
+            grid-template-columns: repeat(3,200px)
 @media screen and ( max-width: 860px )
     .solutions
         &__cards-wrapper
@@ -353,6 +454,9 @@
         &__description
             margin-bottom: 35px
             padding-top: 15px
+    .companies-wrapper
+        &__content
+            grid-template-columns: repeat(3,180px)
 @media screen and ( max-width: 768px )
     .mobile-menu
         display: flex
@@ -448,6 +552,8 @@
             height: 430px
             bottom: -246px
             right: -67px
+    .reasons
+        padding-bottom: 65px
     .reason-card
         height: 290px
         &__description
@@ -461,6 +567,51 @@
             line-height: 33px
         &__strong
             padding-top: 10px
+    .companies-wrapper
+        background-image: none
+        padding: 0
+        &__content
+            grid-template-columns: repeat(2,245px)
+            grid-row-gap: 15px
+    .feedback-form
+        max-width: 370px
+        padding: 30px 29px 40px
+        &__title
+            font-size: 30px
+        &__description
+            padding-top: 5px
+            font-size: 20px
+            padding-bottom: 14px
+            line-height: 26px
+        &__input
+            height: 52px
+            font-size: 21px
+            line-height: 29px
+            margin-bottom: 20px
+            padding: 0 22px
+    .feedback
+        &__purple-donut
+            width: 330px
+            height: 405px
+        &__purple-circle
+            width: 490px
+            height: 490px
+        &__cube
+            width: 240px
+    .footer
+        &__title
+            font-size: 32px
+            padding-bottom: 20px
+            position: relative
+            z-index: 2
+        &__link
+            font-size: 35px
+            position: relative
+            z-index: 2
+            &--phone
+                padding-bottom: 5px
+        &__figures
+            z-index: 1
 @media screen and ( max-width: 700px )
     .solutions-wrapper
         align-items: center
@@ -485,6 +636,12 @@
             font-size: 17px
         &__description
             font-size: 14px
+    .companies-wrapper
+        &__content
+            grid-template-columns: repeat(2,200px)
+    .trust
+        &__title
+            font-size: 40px
 @media screen and ( max-width: 576px )
     .solutions
         clip-path: ellipse(290% 130% at 50% -30%)
@@ -509,6 +666,15 @@
             line-height: 25px
         &__strong
             font-size: 56px
+    .trust
+        &__title
+            &-wrapper
+                margin-bottom: 10px
+    .companies-wrapper
+        &__content
+            padding: 8px 30px
+            grid-template-columns: repeat(2,215px)
+
 @media screen and ( max-width: 480px )
     .hero
         padding: 0 0 78px
@@ -618,6 +784,7 @@
         &__strong
             padding-top: 0px
     .reasons
+        padding-bottom: 40px
         &__cards-wrapper
             grid-template-columns: repeat(1, 100%)
         &__gradient-circle
@@ -637,3 +804,77 @@
         &__cards-wrapper
             margin-top: 30px
             grid-row-gap: 20px
+    .companies-wrapper
+        display: none
+        &--mobile
+            display: block
+        &__content
+            display: flex
+            align-items: center
+            padding: 0
+    .company
+        width: 240px
+    .trust
+        &__company
+            &:nth-child(9)
+                height: 111px
+                width: 40%
+        &__title
+            font-weight: 600
+            font-size: 30px
+            line-height: 37px
+            text-align: center
+    .feedback
+        &__form
+            margin: 0 auto
+            margin-top: 30px
+        &__purple-circle
+            width: 242px
+            height: 299px
+            left: -100px
+        &__purple-donut
+            width: 210px
+            height: 256px
+            bottom: 78px
+        &__cube
+            width: 210px
+    .feedback-form
+        max-width: 335px
+        &__title
+            font-size: 30px
+            line-height: 37px
+        &__description
+            padding-top: 20px
+            font-size: 18px
+            line-height: 22px
+        &__button
+            font-size: 18px
+            line-height: 22px
+    .footer
+        padding-bottom: 40px
+        padding-bottom: 258px
+        &__title
+            font-size: 24px
+            line-height: 29px
+            padding-bottom: 30px
+        &__link
+            font-size: 36px
+            line-height: 44px
+            &--phone
+                padding-bottom: 20px
+        &__figures
+            bottom: 0px
+            right: 50%
+            transform: translateX(50%)
+@media screen and ( max-width: 380px )
+    .footer
+        &__link
+            font-size: 30px
+            line-height: 37px
+@media screen and ( max-width: 350px )
+    .feedback-form
+        max-width: 290px
+        padding: 30px 20px 40px
+        &__title
+            font-size: 27px
+            line-height: 36px

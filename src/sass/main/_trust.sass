@@ -1,0 +1,45 @@
+.trust
+    background-color: #fff
+    position: relative
+    padding-top: 11px
+    padding-bottom: 65px
+    clip-path: ellipse(187% 130% at 50% -30%)
+    overflow-x: hidden
+    &__title
+        font-style: normal
+        font-weight: 600
+        font-size: 48px
+        line-height: 58px
+        color: $gray
+        position: relative
+        z-index: 3
+        transform: translateX(-10px)
+        &-wrapper
+            display: flex
+            justify-content: center
+            margin-bottom: 48px
+    &__container
+        overflow-x: visible
+        max-width: 100% !important
+        width: 100% !important
+    &__company
+        object-fit: cover
+        &:nth-child(9)
+            margin: 0 auto
+.companies-wrapper
+    padding: 110px 0
+    background-image: url('../img/main/trust/companiesBg.png')
+    background-size: 100% 100%
+    background-position: center center
+    width: 100%
+    position: relative
+    z-index: 2
+    &__content
+        display: grid
+        grid-template-columns: repeat(5, max-content)
+        grid-row-gap: 5px
+        align-items: center
+        justify-content: space-between
+        padding: 8px 104px
+    &--mobile
+        display: none
