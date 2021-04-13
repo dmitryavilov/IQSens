@@ -33,7 +33,9 @@ import CompaniesBg from '../img/main/trust/companiesBg.png';
 import DecorativeLine from '../img/main/feedback/decorativeLine.png';
 import PurpleDonut from '../img/main/feedback/purpleDonut.png';
 import RoundCube from '../img/main/feedback/roundCube.png';
-import figuresGroup from '../img/main/footer/figuresGroup.png';
+import FiguresGroup from '../img/main/footer/figuresGroup.png';
+import DecisionsBg from '../img/decisions/main/decisionsBg.jpg';
+import PurpleCircle from '../img/decisions/pain/purpleCircle.png';
 // Шрифты
 import Proxima1 from '../fonts/ProximaNova-Regular.woff2';
 import Proxima2 from '../fonts/ProximaNova-Bold.woff2';
@@ -42,13 +44,15 @@ import Proxima3 from '../fonts/ProximaNova-Semibold.woff2';
 import mobileMenu from './modules/mobileMenu';
 import scrollTo from './modules/scrollTo';
 import trustSlider from './modules/trustSlider';
+import painSlider from './modules/painSlider';
 import sendForm from './modules/sendForm';
 
 // Мобильное меню
 mobileMenu();
 // Скролл
 scrollTo();
-// Слайдер
+// Слайдеры
 trustSlider();
+painSlider();
 // Отправка форма и валидация
 sendForm(document.getElementById('feedback-form'));

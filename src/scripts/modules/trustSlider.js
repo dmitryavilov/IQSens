@@ -1,4 +1,4 @@
-import Swiper from 'swiper/bundle'
+import Swiper from 'swiper/bundle';
 
 const trustSlider = () => {
     const swiper = new Swiper('.companies-wrapper--mobile', {

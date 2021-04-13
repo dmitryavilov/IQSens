@@ -1,3 +1,8 @@
+@media screen and ( max-width: 1870px )
+    .pain
+        &__title
+            max-width: 1560px
+            padding-left: 105px
 @media screen and ( max-width: 1800px )
     .company
         width: 100%
@@ -31,6 +36,13 @@
             &:nth-child(9)
                 height: 95px
                 width: 67%
+    .pain
+        &__content-wrapper
+            max-width: 868px
+    .pain-cards
+        grid-template-columns: repeat(3, 276px)
+    .pain-card
+        padding: 25px 20px 50px
 @media screen and ( max-width: 1440px )
     .container
         max-width: 1280px
@@ -159,10 +171,14 @@
             font-size: 17px
     .hero
         padding: 0 0 115px
+        &--decisions
+            padding: 0 0 50px
         &__title
             font-size: 58px
             max-width: 495px
             line-height: 70px
+            &--decisions
+                max-width: 820px
         &__description
             font-size: 25px
         &__button
@@ -258,6 +274,43 @@
         &__purple-circle
             width: 650px
             height: 650px
+    .pain
+        &__title
+            font-size: 35px
+            line-height: 45px
+            padding-left: 75px
+        &__gray-circle
+            width: 250px
+            height: 250px
+            left: -145px
+        &__content-wrapper
+            max-width: 790px
+        &__robot
+            width: 490px
+            height: 650px
+            bottom: 84px
+            right: -80px
+        &__purple-circle
+            right: -340px
+            width: 632px
+            height: 632px
+        &__cards
+            margin-top: 70px
+    .pain-cards
+        grid-template-columns: repeat(3,251px)
+    .pain-card
+        padding: 15px 20px 30px
+        min-height: 405px
+        &__description
+            font-size: 17px
+    .pain-idle
+        padding: 40px
+        &__title
+            font-size: 40px
+            line-height: 45px
+        &__description
+            font-size: 20px
+            line-height: 25px
 @media screen and ( max-width: 1100px )
     .solutions
         &__cards-wrapper
@@ -408,6 +461,39 @@
     .footer
         &__figures
             width: 500px
+    .pain
+        padding: 60px 0 10px
+        &__content-wrapper
+            max-width: 520px
+        &__gray-circle
+            width: 190px
+            height: 190px
+            left: -100px
+        &__title
+            font-size: 32px
+            line-height: 40px
+        &__purple-circle
+            bottom: 310px
+        &__robot
+            bottom: 293px
+    .pain-cards
+        grid-template-columns: repeat(1, 100%)
+    .pain-card
+        padding: 15px 20px 20px
+        flex-direction: row
+        min-height: auto
+        &__ellipse
+            margin-bottom: 0
+            min-width: 186px
+            width: 186px
+            height: 186px
+        &__description
+            font-size: 20px
+            padding-left: 20px
+    .pain-idle
+        &__title
+            font-size: 39px
+            line-height: 42px
 @media screen and ( max-width: 900px )
     .free-access
         &__title
@@ -612,6 +698,37 @@
                 padding-bottom: 5px
         &__figures
             z-index: 1
+    .pain
+        &__content-wrapper
+            max-width: 495px
+        &__title
+            font-size: 30px
+            line-height: 38px
+    .pain-card
+        &__ellipse
+            min-width: 150px
+            width: 150px
+            height: 150px
+        &__description
+            font-size: 18px
+        &__warning
+            height: 80px
+            width: 80px
+        &__purple-circle
+            &--small
+                width: 50px
+                height: 50px
+            &--medium
+                width: 62px
+                height: 62px
+            &--big
+                right: -10px
+                width: 65px
+                height: 65px
+    .pain-idle
+        &__title
+            font-size: 36px
+            line-height: 40px
 @media screen and ( max-width: 700px )
     .solutions-wrapper
         align-items: center
@@ -674,7 +791,21 @@
         &__content
             padding: 8px 30px
             grid-template-columns: repeat(2,215px)
-
+    .pain
+        padding: 25px 0 10px
+        &__gray-circle
+            left: -120px
+        &__robot
+            display: none
+    .pain-idle
+        &__title
+            font-size: 32px
+            line-height: 37px
+        &__description
+            font-size: 17px
+            line-height: 24px
+            &:first-of-type
+                padding-bottom: 20px
 @media screen and ( max-width: 480px )
     .hero
         padding: 0 0 78px
@@ -682,6 +813,10 @@
             font-size: 40px
             line-height: 49px
             max-width: 285px
+            &-up
+                display: none
+        &--decisions
+            background-position: 70%
         &__description
             font-size: 22px
             line-height: 27px
@@ -866,6 +1001,58 @@
             bottom: 0px
             right: 50%
             transform: translateX(50%)
+    .pain
+        padding: 35px 0 10px
+        &__cards
+            margin-top: 40px
+        &__gray-circle
+            left: -100px
+            width: 180px
+            height: 180px
+        &__purple-circle
+            width: 390px
+            height: 390px
+            bottom: 516px
+            right: -180px
+        &__title
+            font-size: 24px
+            line-height: 29px
+        &__idle
+            margin-top: 20px
+    .pain-cards
+        display: none
+        &--mobile
+            display: flex
+        &__content-wrapper
+            display: flex
+    .pain-card
+        flex-direction: column
+        width: 276px
+        padding: 25px 20px 50px
+        min-height: 428px
+        &__ellipse
+            width: 216px
+            min-width: 216px
+            height: 216px
+            margin-bottom: 20px
+        &__warning
+            width: 106px
+            height: 106px
+        &__description
+            font-style: normal
+            font-weight: 600
+            font-size: 20px
+            line-height: 24px
+            padding-left: 0
+    .pain-idle
+        padding: 40px 30px 50px
+        &__title
+            font-size: 24px
+            line-height: 29px
+        &__description
+            font-size: 20px
+            line-height: 24px
+
 @media screen and ( max-width: 380px )
     .footer
         &__link

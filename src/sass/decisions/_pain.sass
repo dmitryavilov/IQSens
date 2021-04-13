@@ -1,0 +1,121 @@
+.pain
+    padding: 94px 0 70px
+    position: relative
+    overflow: hidden
+    &__container
+        position: relative
+        z-index: 3
+    &__content-wrapper
+        max-width: 1068px
+    &__title
+        padding-left: 9px
+        font-style: normal
+        font-weight: 600
+        font-size: 48px
+        line-height: 58px
+    &__cards
+        margin-top: 101px
+    &__idle
+        margin-top: 41px
+    &__gray-circle
+        width: 301px
+        height: 301px
+        border-radius: 50%
+        background-color: $gray
+        position: absolute
+        top: 0
+        left: -168px
+        z-index: 1
+    &__purple-circle
+        position: absolute
+        width: 832px
+        height: 832px
+        background-color: $purple
+        border-radius: 50%
+        right: -425px
+        bottom: 101px
+        z-index: 1
+    &__robot
+        position: absolute
+        width: 607px
+        height: 876px
+        bottom: 58px
+        right: -82px
+        z-index: 2
+.pain > .pain__container
+    max-width: 1597px
+.pain-cards
+    display: grid
+    width: 100%
+    grid-template-columns: repeat(3, 316px)
+    justify-content: space-between
+    grid-row-gap: 20px
+    &--mobile
+        display: none
+.pain-card
+    display: flex
+    flex-direction: column
+    align-items: center
+    background-color: #fff
+    min-height: 428px
+    padding: 25px 40px 50px
+    border-radius: 10px
+    &__ellipse
+        width: 216px
+        height: 216px
+        border-radius: 50%
+        position: relative
+        display: flex
+        align-items: center
+        justify-content: center
+        background-color: #EFECEC
+        margin-bottom: 20px
+    &__purple-circle
+        position: absolute
+        right: 0
+        top: 0
+        &--small
+            width: 58px
+            height: 58px
+            object-fit: cover
+        &--medium
+            width: 72px
+            height: 72px
+            top: unset
+            bottom: 0
+            object-fit: cover
+        &--big
+            width: 75px
+            height: 75px
+            object-fit: cover
+    &__warning
+        height: 106px
+        width: 106px
+    &__description
+        font-style: normal
+        font-weight: 600
+        font-size: 20px
+        line-height: 24px
+        color: $gray
+.pain-idle
+    width: 100%
+    padding: 50px
+    padding-top: 46px
+    background: linear-gradient(140.95deg, #FFFFFF 0%, rgba(244, 241, 241, 0.77) 100%)
+    backdrop-filter: blur(10px)
+    border-radius: 10px
+    &__title
+        font-style: normal
+        font-weight: 600
+        font-size: 48px
+        line-height: 58px
+        color: $gray
+        padding-bottom: 26px
+    &__description
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 29px
+        color: $gray
+        &:nth-of-type(1)
+            padding-bottom: 29px
