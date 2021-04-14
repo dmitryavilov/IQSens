@@ -9,6 +9,16 @@
     .companies-wrapper
         &__content
             grid-template-columns: repeat(5,256px)
+    .dispatcher-center
+        &__ipad
+            bottom: 20px
+            right: -50px
+@media screen and ( max-width: 1700px )
+    .platform-card
+        padding: 12px 15px 25px 27px
+    .dispatcher-center
+        &__ipad
+            right: -130px
 @media screen and ( max-width: 1600px )
     .solutions
         &__cards-wrapper
@@ -43,6 +53,25 @@
         grid-template-columns: repeat(3, 276px)
     .pain-card
         padding: 25px 20px 50px
+    .platform-card
+        padding: 12px 7px 25px 18px
+        &__description
+            font-size: 20px
+            padding-left: 25px
+            max-width: 525px
+        &:first-child
+            margin-right: 10px
+        &:nth-child(2)
+            margin-left: 10px
+    .dispatcher-info
+        align-items: flex-start
+        &__tiles-wrapper
+            margin-left: 0
+        &__title
+            max-width: 512px
+    .dispatcher-center
+        &__iphone
+            right: -160px
 @media screen and ( max-width: 1440px )
     .container
         max-width: 1280px
@@ -90,10 +119,43 @@
         &__figures
             bottom: -8px
             right: -115px
+    .platform-card
+        &__description
+            font-size: 24px
+            line-height: 29px
+        &:first-child
+            margin-right: 25px
+        &:nth-child(2)
+            margin-left: 25px
+    .dispatcher-center
+        &__gray-line
+            left: -241px
+            bottom: -16px
+        &__ipad
+            right: -200px
 @media screen and ( max-width: 1400px )
     .companies-wrapper
         &__content
             grid-template-columns: repeat(5,220px)
+    .dispatcher-center
+        padding: 50px 0 170px
+        &__ipad
+            width: 800px
+            bottom: 140px
+        &__iphone
+            right: -100px
+            bottom: 120px
+            width: 280px
+    .dispatcher-info
+        &__tiles-wrapper
+            grid-template-columns: repeat(3,120px)
+            width: 495px
+    .dispatcher-tile
+        &__icon
+            width: 110px
+        &__description
+            font-size: 18px
+            line-height: 21px
 @media screen and ( max-width: 1300px )
     .solutions
         &__cards-wrapper
@@ -149,6 +211,17 @@
     .companies-wrapper
         &__content
             grid-template-columns: repeat(5,200px)
+    .platform-info
+        &__description
+            font-size: 28px
+            line-height: 34px
+            max-width: 753px
+    .platform-card
+        padding: 12px 25px 25px 18px
+        &__description
+            font-size: 22px
+            line-height: 27px
+            max-width: 461px
 @media screen and ( max-width: 1200px )
     .header-menu
         &__link
@@ -311,6 +384,46 @@
         &__description
             font-size: 20px
             line-height: 25px
+    .platform
+        min-height: 405px
+        &__container
+            padding-bottom: 95px
+    .platform-info
+        &__text
+            font-size: 22px
+            line-height: 30px
+            max-width: 600px
+        &__arrow
+            width: 200px
+            height: 100px
+    .platform-card
+        padding: 12px 25px 12px 18px
+        &__description
+            font-size: 18px
+            line-height: 23px
+            max-width: 352px
+        &__icon
+            width: 90px
+    .platform-cards
+        bottom: -70px
+    .dispatcher-info
+        &__tiles-wrapper
+            grid-template-columns: repeat(3,110px)
+            width: 460px
+        &__title
+            font-size: 32px
+            line-height: 40px
+    .dispatcher-tile
+        height: 170px
+    .dispatcher-center
+        padding: 50px 0 110px
+        &__ipad
+            width: 719px
+            bottom: 150px
+        &__iphone
+            right: -110px
+            bottom: 125px
+            width: 250px
 @media screen and ( max-width: 1100px )
     .solutions
         &__cards-wrapper
@@ -327,6 +440,9 @@
     .companies-wrapper
         &__content
             grid-template-columns: repeat(5,160px)
+    .dispatcher-center
+        &__ipad
+            width: 680px
 @media screen and ( max-width: 992px )
     .header-menu
         &__link
@@ -462,7 +578,7 @@
         &__figures
             width: 500px
     .pain
-        padding: 60px 0 10px
+        padding: 60px 0 60px
         &__content-wrapper
             max-width: 520px
         &__gray-circle
@@ -494,6 +610,38 @@
         &__title
             font-size: 39px
             line-height: 42px
+    .platform-cards
+        flex-direction: column
+        align-items: center
+        bottom: -220px
+    .platform-card
+        &:first-child, &:nth-child(2)
+            margin: 0
+            margin-bottom: 20px
+    .platform
+        min-height: 500px
+    .platform-info
+        &__text
+            font-size: 20px
+            line-height: 27px
+            max-width: 550px
+    .dispatcher-info
+        &__tiles-wrapper
+            grid-template-columns: repeat(2,150px)
+            width: 330px
+            grid-row-gap: 12px
+    .dispatcher-tile
+        display: flex
+        flex-direction: column
+        align-items: center
+    .dispatcher-center
+        &__ipad
+            bottom: 360px
+        &__iphone
+            bottom: 355px
+        &__gray-line
+            width: 1400px
+            bottom: 400px
 @media screen and ( max-width: 900px )
     .free-access
         &__title
@@ -521,6 +669,28 @@
         &__description
             line-height: 25px
             font-size: 14px
+    .dispatcher-tile
+        height: 155px
+        &__icon
+            width: 85px
+            margin-bottom: 7px
+        &__description
+            font-size: 16px
+            line-height: 18px
+    .dispatcher-info
+        &__tiles-wrapper
+            grid-row-gap: 5px
+    .dispatcher-center
+        padding-bottom: 40px
+        &__ipad
+            width: 570px
+            bottom: 280px
+        &__iphone
+            width: 175px
+            right: -75px
+            bottom: 265px
+        &__gray-line
+            bottom: 195px
 @media screen and ( max-width: 800px )
     .header-menu
         &__link
@@ -729,6 +899,42 @@
         &__title
             font-size: 36px
             line-height: 40px
+    .platform
+        min-height: 530px
+    .platform-info
+        &__text
+            font-size: 18px
+            line-height: 27px
+            max-width: 400px
+        &__arrow
+            width: 158px
+            height: 100px
+    .dispatcher-tile
+        height: 120px
+        &__icon
+            width: 60px
+        &__description
+            font-size: 14px
+            line-height: 16px
+    .dispatcher-info
+        &__tiles-wrapper
+            width: 305px
+        &__title
+            font-size: 26px
+            line-height: 34px
+            max-width: 430px
+    .dispatcher-center
+        &__ipad
+            width: 500px
+            bottom: 185px
+        &__iphone
+            width: 155px
+            right: -60px
+            bottom: 170px
+        &__gray-line
+            width: 1200px
+            left: -180px
+            bottom: 115px
 @media screen and ( max-width: 700px )
     .solutions-wrapper
         align-items: center
@@ -759,6 +965,10 @@
     .trust
         &__title
             font-size: 40px
+@media screen and ( max-width: 650px )
+    .dispatcher-center
+        &__ipad
+            width: 450px
 @media screen and ( max-width: 576px )
     .solutions
         clip-path: ellipse(290% 130% at 50% -30%)
@@ -806,6 +1016,33 @@
             line-height: 24px
             &:first-of-type
                 padding-bottom: 20px
+    .platform-info
+        &__text
+            font-size: 18px
+            line-height: 25px
+            max-width: 360px
+        &__arrow
+            width: 131px
+            height: 103px
+    .dispatcher-info
+        &__tiles-wrapper
+            width: 300px
+    .dispatcher-tile
+        height: 105px
+        &__icon
+            width: 55px
+        &__description
+            font-size: 12px
+            line-height: 15px
+    .dispatcher-info
+        &__tiles-wrapper
+            grid-template-columns: repeat(2,105px)
+            width: 220px
+    .dispatcher-center
+        &__ipad
+            bottom: 150px
+        &__iphone
+            bottom: 135px
 @media screen and ( max-width: 480px )
     .hero
         padding: 0 0 78px
@@ -1052,16 +1289,78 @@
         &__description
             font-size: 20px
             line-height: 24px
-
+    .platform
+        min-height: 760px
+        overflow: visible
+    .platform-info
+        padding-top: 15px
+        &__arrow
+            display: none
+        &__text
+            max-width: 100%
+            font-style: normal
+            font-weight: normal
+            font-size: 20px
+            line-height: 24px
+    .platform-card
+        flex-direction: column
+        padding: 30px 30px 40px
+        &__icon
+            width: 118px
+            height: 111px
+            margin-bottom: 30px
+        &__description
+            font-size: 16px
+            line-height: 19px
+            padding-left: 0
+    .platform-cards
+        bottom: -510px
+    .dispatcher-center
+        &__ipad, &__iphone, &__gray-line
+            display: none
+        &__title
+            font-size: 30px
+            line-height: 37px
+    .dispatcher-info
+        &__tiles-wrapper
+            width: 100%
+            justify-content: space-around
+            grid-template-columns: repeat(2, 151px)
+            grid-row-gap: 30px
+    .dispatcher-tile
+        height: 181px
+        &__icon
+            width: 130px
+        &__description
+            font-size: 20px
+            line-height: 24px
+            max-width: 151px
+        &:last-child
+            grid-column-start: 1
+            grid-column-end: 3
 @media screen and ( max-width: 380px )
     .footer
         &__link
             font-size: 30px
             line-height: 37px
+    .dispatcher-tile
+        height: 175px
+        &__icon
+            width: 115px
+        &__description
+            font-size: 17px
+            line-height: 20px
+            max-width: 130px
+    .dispatcher-info
+        &__tiles-wrapper
+            grid-template-columns: repeat(2,140px)
+            justify-content: space-between
+
 @media screen and ( max-width: 350px )
     .feedback-form
         max-width: 290px
         padding: 30px 20px 40px
-        &__title
-            font-size: 27px
-            line-height: 36px
+    .platform-cards
+        bottom: -530px
+    .platform
+        min-height: 790px

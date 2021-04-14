@@ -44,8 +44,8 @@ const sendForm = form => {
     const createEventListeners = () => {
         name.addEventListener('input', checkInputs);
         phone.addEventListener('input', checkInputs);
-        phone.addEventListener('change', phoneValidation);
         name.addEventListener('change', nameValidation);
+        phone.addEventListener('change', phoneValidation);
     };
 
     createEventListeners();
