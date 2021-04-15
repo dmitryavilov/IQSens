@@ -19,6 +19,16 @@
     .dispatcher-center
         &__ipad
             right: -130px
+    .plus-card
+        &__plus
+            font-size: 22px
+            line-height: 25px
+        &__text-wrapper
+            padding: 24px 24px 24px 60px
+        &__percents
+            margin: 20px 0 24px 60px
+    .pluses-cards
+        grid-template-columns: repeat(3,minmax(0,395px))
 @media screen and ( max-width: 1600px )
     .solutions
         &__cards-wrapper
@@ -133,6 +143,16 @@
             bottom: -16px
         &__ipad
             right: -200px
+    .pluses-cards
+        grid-template-columns: repeat(3,minmax(0,340px))
+    .plus-card
+        &__plus
+            font-size: 20px
+            line-height: 23px
+        &__text-wrapper
+            padding: 24px 24px 24px 45px
+        &__percents
+            margin: 20px 0 24px 45px
 @media screen and ( max-width: 1400px )
     .companies-wrapper
         &__content
@@ -156,6 +176,19 @@
         &__description
             font-size: 18px
             line-height: 21px
+    .action-good
+        width: 175px
+    .action-images-group
+        max-width: 1130px
+    .action-goods
+        padding: 45px 0 120px
+    .iqsee
+        max-width: 1135px
+        &__logo
+            width: 530px
+    .iqsee-card
+        &__img
+            width: 170px
 @media screen and ( max-width: 1300px )
     .solutions
         &__cards-wrapper
@@ -424,6 +457,41 @@
             right: -110px
             bottom: 125px
             width: 250px
+    .iqsee
+        max-width: 980px
+        &__logo
+            width: 440px
+    .iqsee-card
+        &__text-wrapper
+            padding: 25px 0 25px 15px
+        &__img
+            width: 150px
+        &__button
+            padding: 10px 20px
+    .action-good
+        width: 150px
+        height: 230px
+        &__good
+            width: 135px
+    .action-images-group
+        max-width: 980px
+    .action-goods
+        padding: 45px 0 90px
+    .pluses-cards
+        grid-template-columns: repeat(3,minmax(0,290px))
+    .plus-card
+        &__circle
+            width: 120px
+            height: 120px
+        &__percents
+            margin: 20px 0 24px 30px
+        &__percent
+            font-size: 43px
+        &__plus
+            font-size: 18px
+            line-height: 22px
+        &__text-wrapper
+            padding: 24px 24px 10px 45px
 @media screen and ( max-width: 1100px )
     .solutions
         &__cards-wrapper
@@ -443,6 +511,18 @@
     .dispatcher-center
         &__ipad
             width: 680px
+@media screen and ( max-width: 1050px )
+    .iqsee
+        &__logo
+            width: 340px
+    .iqsee-card
+        &__text-wrapper
+            padding: 15px 0 15px 15px
+    .action-good
+        width: 145px
+        height: 220px
+    .action-goods
+        padding: 45px 0 55px
 @media screen and ( max-width: 992px )
     .header-menu
         &__link
@@ -642,6 +722,43 @@
         &__gray-line
             width: 1400px
             bottom: 400px
+    .action-goods
+        display: none
+    .pluses
+        padding: 25px 0 50px
+    .pluses-cards
+        grid-template-columns: repeat(3,minmax(0,260px))
+    .plus-card
+        height: 250px
+        &__text-wrapper
+            padding: 24px 24px 30px 27px
+        &__plus
+            font-size: 15px
+            line-height: 21px
+        &__circle
+            width: 100px
+            height: 100px
+        &__percent
+            font-size: 40px
+    .opportunity-card
+        padding: 15px 25px
+        &__text
+            font-size: 17px
+            line-height: 20px
+            padding-left: 25px
+        &__description
+            font-size: 16px
+            line-height: 20px
+            &--active
+                margin-top: 10px
+    .pluses
+        &__title
+            font-size: 38px
+            line-height: 50px
+        &__white-line
+            display: none
+    .dispatcher-center
+        padding: 50px 0 60px
 @media screen and ( max-width: 900px )
     .free-access
         &__title
@@ -660,6 +777,11 @@
     .companies-wrapper
         &__content
             grid-template-columns: repeat(3,200px)
+    .pluses-cards
+        grid-template-columns: repeat(3,minmax(0,245px))
+    .plus-card
+        &__text-wrapper
+            padding: 15px 24px 30px 22px
 @media screen and ( max-width: 860px )
     .solutions
         &__cards-wrapper
@@ -691,6 +813,21 @@
             bottom: 265px
         &__gray-line
             bottom: 195px
+    .pluses-cards
+        grid-template-columns: repeat(1,minmax(0,500px))
+        justify-content: center
+    .plus-card
+        height: 230px
+        &__plus
+            font-size: 19px
+            line-height: 21px
+        &__percents
+            margin-left: 0
+            justify-content: center
+        &__text-wrapper
+            display: flex
+            text-align: center
+            justify-content: center
 @media screen and ( max-width: 800px )
     .header-menu
         &__link
@@ -1338,6 +1475,27 @@
         &:last-child
             grid-column-start: 1
             grid-column-end: 3
+    .pluses
+        &__title
+            font-size: 36px
+            line-height: 44px
+    .plus-card
+        height: 250px
+        &__plus
+            font-size: 20px
+            line-height: 24px
+    .opportunity-card
+        padding: 15px
+        &__text
+            font-size: 16px
+            line-height: 19px
+    .opportunity
+        padding-top: 30px
+        &__title
+            font-size: 24px
+            line-height: 29px
+            padding: 0 30px 30px 30px
+            text-align: center
 @media screen and ( max-width: 380px )
     .footer
         &__link

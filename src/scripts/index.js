@@ -50,6 +50,16 @@ import Tile9 from '../img/decisions/dispatcherCenter/tile9.png';
 import Ipad from '../img/decisions/dispatcherCenter/ipad.png';
 import IphoneX from '../img/decisions/dispatcherCenter/iphoneX.png';
 import GrayLine from '../img/decisions/dispatcherCenter/grayLine.png';
+import ActionGood1 from '../img/decisions/actionGoods/actionGood-1.png';
+import ActionGood2 from '../img/decisions/actionGoods/actionGood-2.png';
+import ActionGood3 from '../img/decisions/actionGoods/actionGood-3.png';
+import ActionGood4 from '../img/decisions/actionGoods/actionGood-4.png';
+import ActionGood5 from '../img/decisions/actionGoods/actionGood-5.png';
+import ActionGood6 from '../img/decisions/actionGoods/actionGood-6.png';
+import Good1 from '../img/decisions/actionGoods/good-1.jpg';
+import Good2 from '../img/decisions/actionGoods/good-2.jpg';
+import IqSee from '../img/decisions/actionGoods/iqsee.png';
+import WhiteLine from '../img/decisions/pluses/whiteLine.png';
 // Шрифты
 import Proxima1 from '../fonts/ProximaNova-Regular.woff2';
 import Proxima2 from '../fonts/ProximaNova-Bold.woff2';
@@ -59,6 +69,7 @@ import mobileMenu from './modules/mobileMenu';
 import scrollTo from './modules/scrollTo';
 import trustSlider from './modules/trustSlider';
 import painSlider from './modules/painSlider';
+import dropdownCard from './modules/dropdownCard';
 import sendForm from './modules/sendForm';
 
 // Мобильное меню
@@ -70,3 +81,8 @@ trustSlider();
 painSlider();
 // Отправка форма и валидация
 sendForm(document.getElementById('feedback-form'));
+// Выпадающий список
+
+try {
+    dropdownCard();
+} catch {}

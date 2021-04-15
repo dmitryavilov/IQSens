@@ -1,0 +1,133 @@
+.pluses
+    padding: 80px 0 50px
+    overflow: hidden
+    position: relative
+    &__title
+        font-style: normal
+        font-weight: bold
+        font-size: 48px
+        line-height: 58px
+        padding-bottom: 50px
+        color: $gray
+    &__red-text
+        color: $red
+    &__cards
+        margin-bottom: 50px
+    &__white-line
+        position: absolute
+        z-index: 1
+        top: 289px
+        left: -12px
+.pluses-cards
+    display: grid
+    grid-template-columns: repeat(3, minmax(0, 490px))
+    min-height: 300px
+    justify-content: space-between
+    grid-row-gap: 20px
+    position: relative
+    z-index: 2
+.plus-card
+    background: linear-gradient(140.95deg, #FFFFFF 0%, rgba(244, 241, 241, 0.77) 100%)
+    backdrop-filter: blur(10px)
+    overflow: hidden
+    border-radius: 10px
+    &__circle
+        width: 136px
+        height: 136px
+        border-radius: 50%
+        background: #FFFFFF
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+        border: 8px solid #F3F3F3
+        display: flex
+        align-items: center
+        justify-content: center
+    &__arrow
+        width: 41.06px
+        height: 40.2px
+    &__percents
+        margin: 20px 0px 24px 87px
+        display: flex
+        align-items: center
+    &__percent
+        font-style: normal
+        font-weight: 600
+        font-size: 48px
+        line-height: 58px
+        color: $gray
+        padding-left: 27px
+    &__text-wrapper
+        border-top: 4px solid $white
+        padding: 24px
+        padding-left: 87px
+    &__plus
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 29px
+        color: $gray
+.opportunity
+    padding: 40px 0 50px
+    background: rgba(226, 223, 223, 0.7)
+    backdrop-filter: blur(10px)
+    border-radius: 10px
+    position: relative
+    z-index: 2
+    &__title
+        font-style: normal
+        font-weight: bold
+        font-size: 30px
+        line-height: 37px
+        color: $gray
+        padding-bottom: 50px
+        padding-left: 50px
+.opportunity-cards
+    &__card
+        margin-bottom: 20px
+.opportunity-card
+    background-color: $white
+    padding: 15px 50px
+    margin-bottom: 24px
+    overflow: hidden
+    &__icon
+        width: 33px
+        height: 34px
+    &__content
+        display: flex
+        align-items: center
+    &__plus-btn
+        border: none
+        background: transparent
+        height: auto
+        padding: 0
+        display: flex
+        transition: 0.4s
+        align-items: center
+        &:hover
+            opacity: 0.5
+    &__text
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 29px
+        color: $gray
+        padding-left: 40px
+    &__hidden-content
+        margin-top: 0px
+        height: 0
+        transition: 0.4s
+    &__description
+        opacity: 0
+        font-size: 20px
+        line-height: 24px
+        max-height: 0
+        transition: 0.8s
+        color: $gray
+        &--active
+            margin-top: 20px
+            opacity: 1
+            max-height: 1000px
+
+@media screen and ( min-width: 993px )
+    .opportunity-card
+        &:hover
+            background-color: #fff
