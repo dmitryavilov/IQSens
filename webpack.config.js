@@ -43,6 +43,10 @@ module.exports = {
             filename: 'decisions.html',
             template: './decisions.html'
         }),
+        new HTMLWebpackPlugin({
+            filename: 'platform.html',
+            template: './platform.html'
+        }),
         new CleanWebpackPlugin(),
         new CopyPlugin({
             patterns: [

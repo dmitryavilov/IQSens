@@ -60,6 +60,16 @@ import Good1 from '../img/decisions/actionGoods/good-1.jpg';
 import Good2 from '../img/decisions/actionGoods/good-2.jpg';
 import IqSee from '../img/decisions/actionGoods/iqsee.png';
 import WhiteLine from '../img/decisions/pluses/whiteLine.png';
+import Geom from '../img/platform/main/geom.png';
+import FuncIcon1 from '../img/platform/main/funcIcon-1.png';
+import FuncIcon2 from '../img/platform/main/funcIcon-2.png';
+import FuncIcon3 from '../img/platform/main/funcIcon-3.png';
+import FuncIcon4 from '../img/platform/main/funcIcon-4.png';
+import Monitor from '../img/platform/main/monitor.png';
+import AvailablePhones from '../img/platform/available/availablePhones.png';
+import PhoneInt from '../img/platform/interface/phoneInt.png';
+import IphoneInt from '../img/platform/interface/iphoneInt.png';
+import IpadInt from '../img/platform/interface/ipadInt.png';
 // Шрифты
 import Proxima1 from '../fonts/ProximaNova-Regular.woff2';
 import Proxima2 from '../fonts/ProximaNova-Bold.woff2';
@@ -71,6 +81,7 @@ import trustSlider from './modules/trustSlider';
 import painSlider from './modules/painSlider';
 import dropdownCard from './modules/dropdownCard';
 import sendForm from './modules/sendForm';
+import dignitiesSlider from './modules/dignitiesSlider';
 
 // Мобильное меню
 mobileMenu();
@@ -79,10 +90,10 @@ scrollTo();
 // Слайдеры
 trustSlider();
 painSlider();
+dignitiesSlider();
 // Отправка форма и валидация
 sendForm(document.getElementById('feedback-form'));
 // Выпадающий список
-
 try {
     dropdownCard();
-} catch {}
+} catch {};
