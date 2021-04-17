@@ -108,4 +108,6 @@ try {
     sendForm(document.getElementById('feedback-form'));
 } catch {};
 // Карта
-map();
+try {
+    map();
+} catch {};
