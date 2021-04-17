@@ -202,6 +202,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./img/contacts/main/contactsBg.png":
+/*!******************************************!*\
+  !*** ./img/contacts/main/contactsBg.png ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/contactsBg.png\");\n\n//# sourceURL=webpack:///./img/contacts/main/contactsBg.png?");
+
+/***/ }),
+
 /***/ "./img/decisions/actionGoods/actionGood-1.png":
 /*!****************************************************!*\
   !*** ./img/decisions/actionGoods/actionGood-1.png ***!
@@ -886,6 +898,54 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./img/platform/available/availablePhones.png":
+/*!****************************************************!*\
+  !*** ./img/platform/available/availablePhones.png ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/availablePhones.png\");\n\n//# sourceURL=webpack:///./img/platform/available/availablePhones.png?");
+
+/***/ }),
+
+/***/ "./img/platform/interface/ipadInt.png":
+/*!********************************************!*\
+  !*** ./img/platform/interface/ipadInt.png ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/ipadInt.png\");\n\n//# sourceURL=webpack:///./img/platform/interface/ipadInt.png?");
+
+/***/ }),
+
+/***/ "./img/platform/interface/iphoneInt.png":
+/*!**********************************************!*\
+  !*** ./img/platform/interface/iphoneInt.png ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/iphoneInt.png\");\n\n//# sourceURL=webpack:///./img/platform/interface/iphoneInt.png?");
+
+/***/ }),
+
+/***/ "./img/platform/interface/phoneInt.png":
+/*!*********************************************!*\
+  !*** ./img/platform/interface/phoneInt.png ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/phoneInt.png\");\n\n//# sourceURL=webpack:///./img/platform/interface/phoneInt.png?");
+
+/***/ }),
+
 /***/ "./img/platform/main/funcIcon-1.png":
 /*!******************************************!*\
   !*** ./img/platform/main/funcIcon-1.png ***!
@@ -958,6 +1018,138 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./img/product/main/product.jpg":
+/*!**************************************!*\
+  !*** ./img/product/main/product.jpg ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/product.jpg\");\n\n//# sourceURL=webpack:///./img/product/main/product.jpg?");
+
+/***/ }),
+
+/***/ "./img/products/main/prLine.png":
+/*!**************************************!*\
+  !*** ./img/products/main/prLine.png ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/prLine.png\");\n\n//# sourceURL=webpack:///./img/products/main/prLine.png?");
+
+/***/ }),
+
+/***/ "./img/products/main/productsBg.jpg":
+/*!******************************************!*\
+  !*** ./img/products/main/productsBg.jpg ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/productsBg.jpg\");\n\n//# sourceURL=webpack:///./img/products/main/productsBg.jpg?");
+
+/***/ }),
+
+/***/ "./img/products/products/pr1.jpg":
+/*!***************************************!*\
+  !*** ./img/products/products/pr1.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/pr1.jpg\");\n\n//# sourceURL=webpack:///./img/products/products/pr1.jpg?");
+
+/***/ }),
+
+/***/ "./img/products/products/pr2.jpg":
+/*!***************************************!*\
+  !*** ./img/products/products/pr2.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/pr2.jpg\");\n\n//# sourceURL=webpack:///./img/products/products/pr2.jpg?");
+
+/***/ }),
+
+/***/ "./img/products/products/pr3.jpg":
+/*!***************************************!*\
+  !*** ./img/products/products/pr3.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/pr3.jpg\");\n\n//# sourceURL=webpack:///./img/products/products/pr3.jpg?");
+
+/***/ }),
+
+/***/ "./img/products/products/pr4.jpg":
+/*!***************************************!*\
+  !*** ./img/products/products/pr4.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/pr4.jpg\");\n\n//# sourceURL=webpack:///./img/products/products/pr4.jpg?");
+
+/***/ }),
+
+/***/ "./img/products/products/pr5.jpg":
+/*!***************************************!*\
+  !*** ./img/products/products/pr5.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/pr5.jpg\");\n\n//# sourceURL=webpack:///./img/products/products/pr5.jpg?");
+
+/***/ }),
+
+/***/ "./img/products/products/pr6.jpg":
+/*!***************************************!*\
+  !*** ./img/products/products/pr6.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/pr6.jpg\");\n\n//# sourceURL=webpack:///./img/products/products/pr6.jpg?");
+
+/***/ }),
+
+/***/ "./img/products/products/pr7.jpg":
+/*!***************************************!*\
+  !*** ./img/products/products/pr7.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/pr7.jpg\");\n\n//# sourceURL=webpack:///./img/products/products/pr7.jpg?");
+
+/***/ }),
+
+/***/ "./img/products/products/pr8.jpg":
+/*!***************************************!*\
+  !*** ./img/products/products/pr8.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/pr8.jpg\");\n\n//# sourceURL=webpack:///./img/products/products/pr8.jpg?");
+
+/***/ }),
+
 /***/ "./img/sprite.svg":
 /*!************************!*\
   !*** ./img/sprite.svg ***!
@@ -975,9 +1167,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
   !*** ./sass/style.sass ***!
   \*************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: Invalid CSS after \\\"...wser support */\\\": expected 1 selector or at-rule, was \\\"{\\\"\\n        on line 17 of src/sass/platform/_dignities.sass\\n        from line 28 of D:\\\\websites\\\\IQSens\\\\src\\\\sass\\\\style.sass\\n>> drop-filter has minimal browser support */ {\\n\\n   ------------------------------------------^\\n\\n    at D:\\\\websites\\\\IQSens\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at D:\\\\websites\\\\IQSens\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at D:\\\\websites\\\\IQSens\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (D:\\\\websites\\\\IQSens\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (D:\\\\websites\\\\IQSens\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (D:\\\\websites\\\\IQSens\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (D:\\\\websites\\\\IQSens\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./sass/style.sass?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./sass/style.sass?");
 
 /***/ }),
 
@@ -989,7 +1181,19 @@ eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extra
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _babel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../babel */ \"./babel.js\");\n/* harmony import */ var _babel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _sass_style_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../sass/style.sass */ \"./sass/style.sass\");\n/* harmony import */ var _sass_style_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_style_sass__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/bundle */ \"../node_modules/swiper/swiper-bundle.esm.js\");\n/* harmony import */ var _img_sprite_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/sprite.svg */ \"./img/sprite.svg\");\n/* harmony import */ var _img_main_main_mainBg_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/main/main/mainBg.jpg */ \"./img/main/main/mainBg.jpg\");\n/* harmony import */ var _img_main_about_about_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/main/about/about.jpg */ \"./img/main/about/about.jpg\");\n/* harmony import */ var _img_main_main_wifi_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/main/main/wifi.png */ \"./img/main/main/wifi.png\");\n/* harmony import */ var _img_main_main_ellipsesGroup_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/main/main/ellipsesGroup.png */ \"./img/main/main/ellipsesGroup.png\");\n/* harmony import */ var _img_main_about_ellipsesGroupTwo_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/main/about/ellipsesGroupTwo.png */ \"./img/main/about/ellipsesGroupTwo.png\");\n/* harmony import */ var _img_main_solutions_scard1_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/main/solutions/scard1.png */ \"./img/main/solutions/scard1.png\");\n/* harmony import */ var _img_main_solutions_scard2_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../img/main/solutions/scard2.png */ \"./img/main/solutions/scard2.png\");\n/* harmony import */ var _img_main_solutions_scard3_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../img/main/solutions/scard3.png */ \"./img/main/solutions/scard3.png\");\n/* harmony import */ var _img_main_solutions_scard4_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../img/main/solutions/scard4.png */ \"./img/main/solutions/scard4.png\");\n/* harmony import */ var _img_main_solutions_scard5_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../img/main/solutions/scard5.png */ \"./img/main/solutions/scard5.png\");\n/* harmony import */ var _img_main_solutions_scard6_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/main/solutions/scard6.png */ \"./img/main/solutions/scard6.png\");\n/* harmony import */ var _img_main_solutions_iphone_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/main/solutions/iphone.png */ \"./img/main/solutions/iphone.png\");\n/* harmony import */ var _img_main_solutions_donut_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/main/solutions/donut.png */ \"./img/main/solutions/donut.png\");\n/* harmony import */ var _img_main_solutions_dotcircle_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/main/solutions/dotcircle.png */ \"./img/main/solutions/dotcircle.png\");\n/* harmony import */ var _img_main_reasons_reasonsBg_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/main/reasons/reasonsBg.png */ \"./img/main/reasons/reasonsBg.png\");\n/* harmony import */ var _img_main_reasons_circleGroup_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/main/reasons/circleGroup.png */ \"./img/main/reasons/circleGroup.png\");\n/* harmony import */ var _img_main_trust_c1_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/main/trust/c1.jpg */ \"./img/main/trust/c1.jpg\");\n/* harmony import */ var _img_main_trust_c2_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/main/trust/c2.jpg */ \"./img/main/trust/c2.jpg\");\n/* harmony import */ var _img_main_trust_c3_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/main/trust/c3.jpg */ \"./img/main/trust/c3.jpg\");\n/* harmony import */ var _img_main_trust_c4_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/main/trust/c4.jpg */ \"./img/main/trust/c4.jpg\");\n/* harmony import */ var _img_main_trust_c5_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../img/main/trust/c5.jpg */ \"./img/main/trust/c5.jpg\");\n/* harmony import */ var _img_main_trust_c6_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../img/main/trust/c6.jpg */ \"./img/main/trust/c6.jpg\");\n/* harmony import */ var _img_main_trust_c7_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../img/main/trust/c7.jpg */ \"./img/main/trust/c7.jpg\");\n/* harmony import */ var _img_main_trust_c8_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../img/main/trust/c8.jpg */ \"./img/main/trust/c8.jpg\");\n/* harmony import */ var _img_main_trust_c9_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../img/main/trust/c9.jpg */ \"./img/main/trust/c9.jpg\");\n/* harmony import */ var _img_main_trust_c10_jpg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../img/main/trust/c10.jpg */ \"./img/main/trust/c10.jpg\");\n/* harmony import */ var _img_main_trust_companiesBg_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/main/trust/companiesBg.png */ \"./img/main/trust/companiesBg.png\");\n/* harmony import */ var _img_main_feedback_decorativeLine_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../img/main/feedback/decorativeLine.png */ \"./img/main/feedback/decorativeLine.png\");\n/* harmony import */ var _img_main_feedback_purpleDonut_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../img/main/feedback/purpleDonut.png */ \"./img/main/feedback/purpleDonut.png\");\n/* harmony import */ var _img_main_feedback_roundCube_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../img/main/feedback/roundCube.png */ \"./img/main/feedback/roundCube.png\");\n/* harmony import */ var _img_main_footer_figuresGroup_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../img/main/footer/figuresGroup.png */ \"./img/main/footer/figuresGroup.png\");\n/* harmony import */ var _img_decisions_main_decisionsBg_jpg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../img/decisions/main/decisionsBg.jpg */ \"./img/decisions/main/decisionsBg.jpg\");\n/* harmony import */ var _img_decisions_pain_purpleCircle_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../img/decisions/pain/purpleCircle.png */ \"./img/decisions/pain/purpleCircle.png\");\n/* harmony import */ var _img_decisions_platform_eye_png__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../img/decisions/platform/eye.png */ \"./img/decisions/platform/eye.png\");\n/* harmony import */ var _img_decisions_platform_headphones_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../img/decisions/platform/headphones.png */ \"./img/decisions/platform/headphones.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile.png */ \"./img/decisions/dispatcherCenter/tile.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile2_png__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile2.png */ \"./img/decisions/dispatcherCenter/tile2.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile3_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile3.png */ \"./img/decisions/dispatcherCenter/tile3.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile4_png__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile4.png */ \"./img/decisions/dispatcherCenter/tile4.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile5_png__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile5.png */ \"./img/decisions/dispatcherCenter/tile5.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile6_png__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile6.png */ \"./img/decisions/dispatcherCenter/tile6.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile7_png__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile7.png */ \"./img/decisions/dispatcherCenter/tile7.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile8_png__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile8.png */ \"./img/decisions/dispatcherCenter/tile8.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile9_png__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile9.png */ \"./img/decisions/dispatcherCenter/tile9.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_ipad_png__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/ipad.png */ \"./img/decisions/dispatcherCenter/ipad.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_iphoneX_png__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/iphoneX.png */ \"./img/decisions/dispatcherCenter/iphoneX.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_grayLine_png__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/grayLine.png */ \"./img/decisions/dispatcherCenter/grayLine.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_1_png__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-1.png */ \"./img/decisions/actionGoods/actionGood-1.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_2_png__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-2.png */ \"./img/decisions/actionGoods/actionGood-2.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_3_png__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-3.png */ \"./img/decisions/actionGoods/actionGood-3.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_4_png__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-4.png */ \"./img/decisions/actionGoods/actionGood-4.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_5_png__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-5.png */ \"./img/decisions/actionGoods/actionGood-5.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_6_png__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-6.png */ \"./img/decisions/actionGoods/actionGood-6.png\");\n/* harmony import */ var _img_decisions_actionGoods_good_1_jpg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ../img/decisions/actionGoods/good-1.jpg */ \"./img/decisions/actionGoods/good-1.jpg\");\n/* harmony import */ var _img_decisions_actionGoods_good_2_jpg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ../img/decisions/actionGoods/good-2.jpg */ \"./img/decisions/actionGoods/good-2.jpg\");\n/* harmony import */ var _img_decisions_actionGoods_iqsee_png__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ../img/decisions/actionGoods/iqsee.png */ \"./img/decisions/actionGoods/iqsee.png\");\n/* harmony import */ var _img_decisions_pluses_whiteLine_png__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ../img/decisions/pluses/whiteLine.png */ \"./img/decisions/pluses/whiteLine.png\");\n/* harmony import */ var _img_platform_main_geom_png__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ../img/platform/main/geom.png */ \"./img/platform/main/geom.png\");\n/* harmony import */ var _img_platform_main_funcIcon_1_png__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ../img/platform/main/funcIcon-1.png */ \"./img/platform/main/funcIcon-1.png\");\n/* harmony import */ var _img_platform_main_funcIcon_2_png__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ../img/platform/main/funcIcon-2.png */ \"./img/platform/main/funcIcon-2.png\");\n/* harmony import */ var _img_platform_main_funcIcon_3_png__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ../img/platform/main/funcIcon-3.png */ \"./img/platform/main/funcIcon-3.png\");\n/* harmony import */ var _img_platform_main_funcIcon_4_png__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ../img/platform/main/funcIcon-4.png */ \"./img/platform/main/funcIcon-4.png\");\n/* harmony import */ var _img_platform_main_monitor_png__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! ../img/platform/main/monitor.png */ \"./img/platform/main/monitor.png\");\n/* harmony import */ var _fonts_ProximaNova_Regular_woff2__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! ../fonts/ProximaNova-Regular.woff2 */ \"./fonts/ProximaNova-Regular.woff2\");\n/* harmony import */ var _fonts_ProximaNova_Bold_woff2__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ../fonts/ProximaNova-Bold.woff2 */ \"./fonts/ProximaNova-Bold.woff2\");\n/* harmony import */ var _fonts_ProximaNova_Semibold_woff2__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ../fonts/ProximaNova-Semibold.woff2 */ \"./fonts/ProximaNova-Semibold.woff2\");\n/* harmony import */ var _modules_mobileMenu__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! ./modules/mobileMenu */ \"./scripts/modules/mobileMenu.js\");\n/* harmony import */ var _modules_scrollTo__WEBPACK_IMPORTED_MODULE_71__ = __webpack_require__(/*! ./modules/scrollTo */ \"./scripts/modules/scrollTo.js\");\n/* harmony import */ var _modules_trustSlider__WEBPACK_IMPORTED_MODULE_72__ = __webpack_require__(/*! ./modules/trustSlider */ \"./scripts/modules/trustSlider.js\");\n/* harmony import */ var _modules_painSlider__WEBPACK_IMPORTED_MODULE_73__ = __webpack_require__(/*! ./modules/painSlider */ \"./scripts/modules/painSlider.js\");\n/* harmony import */ var _modules_dropdownCard__WEBPACK_IMPORTED_MODULE_74__ = __webpack_require__(/*! ./modules/dropdownCard */ \"./scripts/modules/dropdownCard.js\");\n/* harmony import */ var _modules_sendForm__WEBPACK_IMPORTED_MODULE_75__ = __webpack_require__(/*! ./modules/sendForm */ \"./scripts/modules/sendForm.js\");\n\n\n // Картинки\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n // Шрифты\n\n\n\n // Модули\n\n\n\n\n\n\n // Мобильное меню\n\nObject(_modules_mobileMenu__WEBPACK_IMPORTED_MODULE_70__[\"default\"])(); // Скролл\n\nObject(_modules_scrollTo__WEBPACK_IMPORTED_MODULE_71__[\"default\"])(); // Слайдеры\n\nObject(_modules_trustSlider__WEBPACK_IMPORTED_MODULE_72__[\"default\"])();\nObject(_modules_painSlider__WEBPACK_IMPORTED_MODULE_73__[\"default\"])(); // Отправка форма и валидация\n\nObject(_modules_sendForm__WEBPACK_IMPORTED_MODULE_75__[\"default\"])(document.getElementById('feedback-form')); // Выпадающий список\n\ntry {\n  Object(_modules_dropdownCard__WEBPACK_IMPORTED_MODULE_74__[\"default\"])();\n} catch (_unused) {}\n\n//# sourceURL=webpack:///./scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _babel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../babel */ \"./babel.js\");\n/* harmony import */ var _babel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _sass_style_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../sass/style.sass */ \"./sass/style.sass\");\n/* harmony import */ var _sass_style_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_style_sass__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/bundle */ \"../node_modules/swiper/swiper-bundle.esm.js\");\n/* harmony import */ var _img_sprite_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/sprite.svg */ \"./img/sprite.svg\");\n/* harmony import */ var _img_main_main_mainBg_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/main/main/mainBg.jpg */ \"./img/main/main/mainBg.jpg\");\n/* harmony import */ var _img_main_about_about_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/main/about/about.jpg */ \"./img/main/about/about.jpg\");\n/* harmony import */ var _img_main_main_wifi_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/main/main/wifi.png */ \"./img/main/main/wifi.png\");\n/* harmony import */ var _img_main_main_ellipsesGroup_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/main/main/ellipsesGroup.png */ \"./img/main/main/ellipsesGroup.png\");\n/* harmony import */ var _img_main_about_ellipsesGroupTwo_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/main/about/ellipsesGroupTwo.png */ \"./img/main/about/ellipsesGroupTwo.png\");\n/* harmony import */ var _img_main_solutions_scard1_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/main/solutions/scard1.png */ \"./img/main/solutions/scard1.png\");\n/* harmony import */ var _img_main_solutions_scard2_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../img/main/solutions/scard2.png */ \"./img/main/solutions/scard2.png\");\n/* harmony import */ var _img_main_solutions_scard3_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../img/main/solutions/scard3.png */ \"./img/main/solutions/scard3.png\");\n/* harmony import */ var _img_main_solutions_scard4_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../img/main/solutions/scard4.png */ \"./img/main/solutions/scard4.png\");\n/* harmony import */ var _img_main_solutions_scard5_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../img/main/solutions/scard5.png */ \"./img/main/solutions/scard5.png\");\n/* harmony import */ var _img_main_solutions_scard6_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/main/solutions/scard6.png */ \"./img/main/solutions/scard6.png\");\n/* harmony import */ var _img_main_solutions_iphone_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/main/solutions/iphone.png */ \"./img/main/solutions/iphone.png\");\n/* harmony import */ var _img_main_solutions_donut_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/main/solutions/donut.png */ \"./img/main/solutions/donut.png\");\n/* harmony import */ var _img_main_solutions_dotcircle_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/main/solutions/dotcircle.png */ \"./img/main/solutions/dotcircle.png\");\n/* harmony import */ var _img_main_reasons_reasonsBg_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/main/reasons/reasonsBg.png */ \"./img/main/reasons/reasonsBg.png\");\n/* harmony import */ var _img_main_reasons_circleGroup_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/main/reasons/circleGroup.png */ \"./img/main/reasons/circleGroup.png\");\n/* harmony import */ var _img_main_trust_c1_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/main/trust/c1.jpg */ \"./img/main/trust/c1.jpg\");\n/* harmony import */ var _img_main_trust_c2_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/main/trust/c2.jpg */ \"./img/main/trust/c2.jpg\");\n/* harmony import */ var _img_main_trust_c3_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/main/trust/c3.jpg */ \"./img/main/trust/c3.jpg\");\n/* harmony import */ var _img_main_trust_c4_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/main/trust/c4.jpg */ \"./img/main/trust/c4.jpg\");\n/* harmony import */ var _img_main_trust_c5_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../img/main/trust/c5.jpg */ \"./img/main/trust/c5.jpg\");\n/* harmony import */ var _img_main_trust_c6_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../img/main/trust/c6.jpg */ \"./img/main/trust/c6.jpg\");\n/* harmony import */ var _img_main_trust_c7_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../img/main/trust/c7.jpg */ \"./img/main/trust/c7.jpg\");\n/* harmony import */ var _img_main_trust_c8_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../img/main/trust/c8.jpg */ \"./img/main/trust/c8.jpg\");\n/* harmony import */ var _img_main_trust_c9_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../img/main/trust/c9.jpg */ \"./img/main/trust/c9.jpg\");\n/* harmony import */ var _img_main_trust_c10_jpg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../img/main/trust/c10.jpg */ \"./img/main/trust/c10.jpg\");\n/* harmony import */ var _img_main_trust_companiesBg_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../img/main/trust/companiesBg.png */ \"./img/main/trust/companiesBg.png\");\n/* harmony import */ var _img_main_feedback_decorativeLine_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../img/main/feedback/decorativeLine.png */ \"./img/main/feedback/decorativeLine.png\");\n/* harmony import */ var _img_main_feedback_purpleDonut_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../img/main/feedback/purpleDonut.png */ \"./img/main/feedback/purpleDonut.png\");\n/* harmony import */ var _img_main_feedback_roundCube_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../img/main/feedback/roundCube.png */ \"./img/main/feedback/roundCube.png\");\n/* harmony import */ var _img_main_footer_figuresGroup_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../img/main/footer/figuresGroup.png */ \"./img/main/footer/figuresGroup.png\");\n/* harmony import */ var _img_decisions_main_decisionsBg_jpg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../img/decisions/main/decisionsBg.jpg */ \"./img/decisions/main/decisionsBg.jpg\");\n/* harmony import */ var _img_decisions_pain_purpleCircle_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../img/decisions/pain/purpleCircle.png */ \"./img/decisions/pain/purpleCircle.png\");\n/* harmony import */ var _img_decisions_platform_eye_png__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../img/decisions/platform/eye.png */ \"./img/decisions/platform/eye.png\");\n/* harmony import */ var _img_decisions_platform_headphones_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../img/decisions/platform/headphones.png */ \"./img/decisions/platform/headphones.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile.png */ \"./img/decisions/dispatcherCenter/tile.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile2_png__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile2.png */ \"./img/decisions/dispatcherCenter/tile2.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile3_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile3.png */ \"./img/decisions/dispatcherCenter/tile3.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile4_png__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile4.png */ \"./img/decisions/dispatcherCenter/tile4.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile5_png__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile5.png */ \"./img/decisions/dispatcherCenter/tile5.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile6_png__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile6.png */ \"./img/decisions/dispatcherCenter/tile6.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile7_png__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile7.png */ \"./img/decisions/dispatcherCenter/tile7.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile8_png__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile8.png */ \"./img/decisions/dispatcherCenter/tile8.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_tile9_png__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/tile9.png */ \"./img/decisions/dispatcherCenter/tile9.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_ipad_png__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/ipad.png */ \"./img/decisions/dispatcherCenter/ipad.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_iphoneX_png__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/iphoneX.png */ \"./img/decisions/dispatcherCenter/iphoneX.png\");\n/* harmony import */ var _img_decisions_dispatcherCenter_grayLine_png__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../img/decisions/dispatcherCenter/grayLine.png */ \"./img/decisions/dispatcherCenter/grayLine.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_1_png__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-1.png */ \"./img/decisions/actionGoods/actionGood-1.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_2_png__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-2.png */ \"./img/decisions/actionGoods/actionGood-2.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_3_png__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-3.png */ \"./img/decisions/actionGoods/actionGood-3.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_4_png__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-4.png */ \"./img/decisions/actionGoods/actionGood-4.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_5_png__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-5.png */ \"./img/decisions/actionGoods/actionGood-5.png\");\n/* harmony import */ var _img_decisions_actionGoods_actionGood_6_png__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ../img/decisions/actionGoods/actionGood-6.png */ \"./img/decisions/actionGoods/actionGood-6.png\");\n/* harmony import */ var _img_decisions_actionGoods_good_1_jpg__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ../img/decisions/actionGoods/good-1.jpg */ \"./img/decisions/actionGoods/good-1.jpg\");\n/* harmony import */ var _img_decisions_actionGoods_good_2_jpg__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ../img/decisions/actionGoods/good-2.jpg */ \"./img/decisions/actionGoods/good-2.jpg\");\n/* harmony import */ var _img_decisions_actionGoods_iqsee_png__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ../img/decisions/actionGoods/iqsee.png */ \"./img/decisions/actionGoods/iqsee.png\");\n/* harmony import */ var _img_decisions_pluses_whiteLine_png__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ../img/decisions/pluses/whiteLine.png */ \"./img/decisions/pluses/whiteLine.png\");\n/* harmony import */ var _img_platform_main_geom_png__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ../img/platform/main/geom.png */ \"./img/platform/main/geom.png\");\n/* harmony import */ var _img_platform_main_funcIcon_1_png__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ../img/platform/main/funcIcon-1.png */ \"./img/platform/main/funcIcon-1.png\");\n/* harmony import */ var _img_platform_main_funcIcon_2_png__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ../img/platform/main/funcIcon-2.png */ \"./img/platform/main/funcIcon-2.png\");\n/* harmony import */ var _img_platform_main_funcIcon_3_png__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ../img/platform/main/funcIcon-3.png */ \"./img/platform/main/funcIcon-3.png\");\n/* harmony import */ var _img_platform_main_funcIcon_4_png__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ../img/platform/main/funcIcon-4.png */ \"./img/platform/main/funcIcon-4.png\");\n/* harmony import */ var _img_platform_main_monitor_png__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! ../img/platform/main/monitor.png */ \"./img/platform/main/monitor.png\");\n/* harmony import */ var _img_platform_available_availablePhones_png__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! ../img/platform/available/availablePhones.png */ \"./img/platform/available/availablePhones.png\");\n/* harmony import */ var _img_platform_interface_phoneInt_png__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ../img/platform/interface/phoneInt.png */ \"./img/platform/interface/phoneInt.png\");\n/* harmony import */ var _img_platform_interface_iphoneInt_png__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ../img/platform/interface/iphoneInt.png */ \"./img/platform/interface/iphoneInt.png\");\n/* harmony import */ var _img_platform_interface_ipadInt_png__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! ../img/platform/interface/ipadInt.png */ \"./img/platform/interface/ipadInt.png\");\n/* harmony import */ var _img_products_main_productsBg_jpg__WEBPACK_IMPORTED_MODULE_71__ = __webpack_require__(/*! ../img/products/main/productsBg.jpg */ \"./img/products/main/productsBg.jpg\");\n/* harmony import */ var _img_products_main_prLine_png__WEBPACK_IMPORTED_MODULE_72__ = __webpack_require__(/*! ../img/products/main/prLine.png */ \"./img/products/main/prLine.png\");\n/* harmony import */ var _img_products_products_pr1_jpg__WEBPACK_IMPORTED_MODULE_73__ = __webpack_require__(/*! ../img/products/products/pr1.jpg */ \"./img/products/products/pr1.jpg\");\n/* harmony import */ var _img_products_products_pr2_jpg__WEBPACK_IMPORTED_MODULE_74__ = __webpack_require__(/*! ../img/products/products/pr2.jpg */ \"./img/products/products/pr2.jpg\");\n/* harmony import */ var _img_products_products_pr3_jpg__WEBPACK_IMPORTED_MODULE_75__ = __webpack_require__(/*! ../img/products/products/pr3.jpg */ \"./img/products/products/pr3.jpg\");\n/* harmony import */ var _img_products_products_pr4_jpg__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! ../img/products/products/pr4.jpg */ \"./img/products/products/pr4.jpg\");\n/* harmony import */ var _img_products_products_pr5_jpg__WEBPACK_IMPORTED_MODULE_77__ = __webpack_require__(/*! ../img/products/products/pr5.jpg */ \"./img/products/products/pr5.jpg\");\n/* harmony import */ var _img_products_products_pr6_jpg__WEBPACK_IMPORTED_MODULE_78__ = __webpack_require__(/*! ../img/products/products/pr6.jpg */ \"./img/products/products/pr6.jpg\");\n/* harmony import */ var _img_products_products_pr7_jpg__WEBPACK_IMPORTED_MODULE_79__ = __webpack_require__(/*! ../img/products/products/pr7.jpg */ \"./img/products/products/pr7.jpg\");\n/* harmony import */ var _img_products_products_pr8_jpg__WEBPACK_IMPORTED_MODULE_80__ = __webpack_require__(/*! ../img/products/products/pr8.jpg */ \"./img/products/products/pr8.jpg\");\n/* harmony import */ var _img_product_main_product_jpg__WEBPACK_IMPORTED_MODULE_81__ = __webpack_require__(/*! ../img/product/main/product.jpg */ \"./img/product/main/product.jpg\");\n/* harmony import */ var _img_contacts_main_contactsBg_png__WEBPACK_IMPORTED_MODULE_82__ = __webpack_require__(/*! ../img/contacts/main/contactsBg.png */ \"./img/contacts/main/contactsBg.png\");\n/* harmony import */ var _fonts_ProximaNova_Regular_woff2__WEBPACK_IMPORTED_MODULE_83__ = __webpack_require__(/*! ../fonts/ProximaNova-Regular.woff2 */ \"./fonts/ProximaNova-Regular.woff2\");\n/* harmony import */ var _fonts_ProximaNova_Bold_woff2__WEBPACK_IMPORTED_MODULE_84__ = __webpack_require__(/*! ../fonts/ProximaNova-Bold.woff2 */ \"./fonts/ProximaNova-Bold.woff2\");\n/* harmony import */ var _fonts_ProximaNova_Semibold_woff2__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(/*! ../fonts/ProximaNova-Semibold.woff2 */ \"./fonts/ProximaNova-Semibold.woff2\");\n/* harmony import */ var _modules_mobileMenu__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(/*! ./modules/mobileMenu */ \"./scripts/modules/mobileMenu.js\");\n/* harmony import */ var _modules_scrollTo__WEBPACK_IMPORTED_MODULE_87__ = __webpack_require__(/*! ./modules/scrollTo */ \"./scripts/modules/scrollTo.js\");\n/* harmony import */ var _modules_trustSlider__WEBPACK_IMPORTED_MODULE_88__ = __webpack_require__(/*! ./modules/trustSlider */ \"./scripts/modules/trustSlider.js\");\n/* harmony import */ var _modules_painSlider__WEBPACK_IMPORTED_MODULE_89__ = __webpack_require__(/*! ./modules/painSlider */ \"./scripts/modules/painSlider.js\");\n/* harmony import */ var _modules_dropdownCard__WEBPACK_IMPORTED_MODULE_90__ = __webpack_require__(/*! ./modules/dropdownCard */ \"./scripts/modules/dropdownCard.js\");\n/* harmony import */ var _modules_sendForm__WEBPACK_IMPORTED_MODULE_91__ = __webpack_require__(/*! ./modules/sendForm */ \"./scripts/modules/sendForm.js\");\n/* harmony import */ var _modules_dignitiesSlider__WEBPACK_IMPORTED_MODULE_92__ = __webpack_require__(/*! ./modules/dignitiesSlider */ \"./scripts/modules/dignitiesSlider.js\");\n/* harmony import */ var _modules_map__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! ./modules/map */ \"./scripts/modules/map.js\");\n\n\n // Картинки\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n // Шрифты\n\n\n\n // Модули\n\n\n\n\n\n\n\n\n // Мобильное меню\n\nObject(_modules_mobileMenu__WEBPACK_IMPORTED_MODULE_86__[\"default\"])(); // Скролл\n\nObject(_modules_scrollTo__WEBPACK_IMPORTED_MODULE_87__[\"default\"])(); // Слайдеры\n\nObject(_modules_trustSlider__WEBPACK_IMPORTED_MODULE_88__[\"default\"])();\nObject(_modules_painSlider__WEBPACK_IMPORTED_MODULE_89__[\"default\"])();\nObject(_modules_dignitiesSlider__WEBPACK_IMPORTED_MODULE_92__[\"default\"])(); // Отправка форма и валидация\n\ntry {\n  Object(_modules_sendForm__WEBPACK_IMPORTED_MODULE_91__[\"default\"])(document.getElementById('feedback-form'));\n} catch (_unused) {}\n\n; // Выпадающий список\n\ntry {\n  Object(_modules_dropdownCard__WEBPACK_IMPORTED_MODULE_90__[\"default\"])();\n} catch (_unused2) {}\n\n; // Карта\n\nObject(_modules_map__WEBPACK_IMPORTED_MODULE_93__[\"default\"])();\n\n//# sourceURL=webpack:///./scripts/index.js?");
+
+/***/ }),
+
+/***/ "./scripts/modules/dignitiesSlider.js":
+/*!********************************************!*\
+  !*** ./scripts/modules/dignitiesSlider.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swiper_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper/bundle */ \"../node_modules/swiper/swiper-bundle.esm.js\");\n\n\nvar dignitiesSlider = function dignitiesSlider() {\n  var swiper = new swiper_bundle__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.dignities-cards--md', {\n    direction: 'horizontal',\n    slidesPerView: 'auto',\n    spaceBetween: -10,\n    autoplay: {\n      delay: 1500\n    }\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (dignitiesSlider);\n\n//# sourceURL=webpack:///./scripts/modules/dignitiesSlider.js?");
 
 /***/ }),
 
@@ -1002,6 +1206,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bab
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\nvar dropdownCard = function dropdownCard() {\n  var wrapper = document.querySelector('.opportunity');\n\n  var toggleCard = function toggleCard(e) {\n    var target = e.target;\n    var button = target.closest('.opportunity-card__plus-btn'),\n        card = target.closest('.opportunity-card'),\n        hiddenText = card.querySelector('.opportunity-card__description');\n\n    var toggleButton = function toggleButton() {\n      if (card.classList.contains('opportunity-card--active')) {\n        button.style.transform = 'rotate(0deg)';\n      } else {\n        button.style.transform = 'rotate(135deg)';\n      }\n\n      ;\n    };\n\n    if (button) {\n      if (card.classList.contains('opportunity-card--active')) {\n        hiddenText.classList.remove('opportunity-card__description--active');\n        toggleButton();\n        card.classList.remove('opportunity-card--active');\n      } else {\n        hiddenText.classList.add('opportunity-card__description--active');\n        toggleButton();\n        card.classList.add('opportunity-card--active');\n      }\n\n      ;\n    }\n\n    ;\n  };\n\n  wrapper.addEventListener('click', toggleCard);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (dropdownCard);\n\n//# sourceURL=webpack:///./scripts/modules/dropdownCard.js?");
+
+/***/ }),
+
+/***/ "./scripts/modules/map.js":
+/*!********************************!*\
+  !*** ./scripts/modules/map.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar map = function map() {\n  ymaps.ready(init);\n\n  function init() {\n    // Создание карты.\n    var myMap = new ymaps.Map(\"map\", {\n      // Координаты центра карты.\n      // Порядок по умолчанию: «широта, долгота».\n      // Чтобы не определять координаты центра карты вручную,\n      // воспользуйтесь инструментом Определение координат.\n      center: [57.999716, 56.263588],\n      // Уровень масштабирования. Допустимые значения:\n      // от 0 (весь мир) до 19.\n      zoom: 18\n    });\n    myMap.geoObjects.add(new ymaps.Placemark([57.999716, 56.263588], {\n      balloonContent: 'Наше место расположения!'\n    }, {\n      preset: 'islands#icon',\n      iconColor: 'red'\n    }));\n  }\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (map);\n\n//# sourceURL=webpack:///./scripts/modules/map.js?");
 
 /***/ }),
 

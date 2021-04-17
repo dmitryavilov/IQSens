@@ -3,6 +3,9 @@
         &__title
             max-width: 1560px
             padding-left: 105px
+    .hero
+        &__product-img
+            right: 20px
 @media screen and ( max-width: 1800px )
     .company
         width: 100%
@@ -131,7 +134,12 @@
     .available
         &__text-wrapper
             max-width: 620px
+@media screen and ( max-width: 1500px )
+    .hero
+        &__product-img
+            width: 443px
 @media screen and ( max-width: 1440px )
+
     .container
         max-width: 1280px
     .solutions
@@ -221,6 +229,16 @@
         &__phone
             right: 50px
             top: 5px
+    .product
+        min-height: 460px
+        height: unset
+        &__product-name
+            font-size: 17px
+            padding: 20px 11px 30px
+            &--bold
+                padding: 0
+        &__image
+            height: 280px
 @media screen and ( max-width: 1400px )
     .companies-wrapper
         &__content
@@ -277,6 +295,21 @@
         &__text
             font-size: 20px
             line-height: 24px
+    .hero
+        &__product-img
+            width: 330px
+    .description
+        &__text
+            font-size: 21px
+            line-height: 25px
+        &__title
+            font-size: 32px
+            padding-bottom: 14px
+        &__content
+            max-width: 60.8%
+    .characteristic
+        &__property, &__value
+            font-size: 20px
 @media screen and ( max-width: 1300px )
     .solutions
         &__cards-wrapper
@@ -373,6 +406,13 @@
             line-height: 70px
             &--decisions
                 max-width: 820px
+            &--products
+                line-height: 67px
+                font-size: 50px
+        &__white-line
+            bottom: -35px
+            left: 14px
+            width: 1663px
         &__description
             font-size: 25px
         &__button
@@ -633,6 +673,33 @@
             bottom: 170px
             width: 288px
             left: 8px
+    .products-wrapper
+        transform: translateY(-60px)
+    .product
+        min-height: 400px
+        &__image
+            height: 240px
+    .characteristic
+        &__property, &__value
+            font-size: 17px
+    .description
+        &__text
+            font-size: 17px
+            line-height: 24px
+        &__title
+            font-size: 28px
+        &__content
+            max-width: 56.8%
+    .hero
+        &__product-img
+            width: 280px
+        &__title
+            &--product
+                line-height: 51px
+                font-size: 40px
+            &-big
+                &--product
+                    font-size: 55px
 @media screen and ( max-width: 1100px )
     .solutions
         &__cards-wrapper
@@ -676,6 +743,16 @@
         &__title
             font-size: 20px
             line-height: 23px
+    .hero
+        &__title
+            &--product
+                font-size: 40px
+    .characteristic
+        &__property
+            max-width: 280px
+            line-height: 22px
+        &__value
+            line-height: 22px
 @media screen and ( max-width: 992px )
     .header-menu
         &__link
@@ -691,10 +768,15 @@
         padding: 7px 20px
     .hero
         padding: 0 0 90px
+        &--products
+            padding: 0 0 125px
         &__title
             font-size: 53px
             max-width: 475px
             line-height: 65px
+            &--products
+                font-size: 52px
+                line-height: 65px
         &__description
             margin-bottom: 40px
             font-size: 21px
@@ -723,6 +805,8 @@
         &__icon
             width: 57px
             height: 57px
+        &--products
+            margin-top: 120px
     .to-bottom-btn
         &__icon
             height: 14px
@@ -976,6 +1060,8 @@
     .title
         font-size: 35px
         line-height: 45px
+    .products-wrapper
+        grid-template-columns: repeat(3,minmax(0,365px))
 @media screen and ( max-width: 900px )
     .free-access
         &__title
@@ -999,6 +1085,11 @@
     .plus-card
         &__text-wrapper
             padding: 15px 24px 30px 22px
+    .hero
+        &__title
+            &--products
+                font-size: 50px
+                line-height: 63px
 @media screen and ( max-width: 860px )
     .solutions
         &__cards-wrapper
@@ -1045,6 +1136,26 @@
             display: flex
             text-align: center
             justify-content: center
+    .hero
+        &__product-img
+            position: relative
+            top: -85px
+            right: unset
+            left: 50%
+            transform: translateX(-50%)
+    .description
+        &__content
+            transform: translateY(-30px)
+            max-width: 100%
+    .characteristic
+        &__property, &__value
+            font-size: 20px
+        &__property
+            max-width: 100%
+    .characteristics-wrapper
+        &__characteristic
+            &:not(&:last-child)
+                margin-bottom: 13px
 @media screen and ( max-width: 800px )
     .header-menu
         &__link
@@ -1310,6 +1421,12 @@
             bottom: 54px
         &__ipad
             bottom: 20px
+    .hero
+        &__title
+            &--products
+                max-width: 95%
+    .products-wrapper
+        grid-template-columns: repeat(2,minmax(0,365px))
 @media screen and ( max-width: 700px )
     .solutions-wrapper
         align-items: center
@@ -1422,6 +1539,37 @@
         &__ipad
             width: 755px
             bottom: 180px
+    .hero
+        &__title
+            &--products
+                font-style: normal
+                font-weight: 600
+                font-size: 40px
+                line-height: 49px
+            &-big
+                font-size: 40px
+                line-height: 49px
+                font-weight: bold
+        &__white-line
+            width: 1260px
+            bottom: -10px
+            left: -214px
+    .product
+        min-height: 360px
+        &__image
+            height: 200px
+        &__button
+            padding: 15px 20px
+    .products-wrapper
+        grid-template-columns: repeat(2,minmax(0,255px))
+        grid-row-gap: 20px
+        &__product
+            margin: 0 5px
+    .characteristic
+        &__property, &__value
+            font-size: 16px
+        &__property
+            max-width: 300px
 @media screen and ( max-width: 480px )
     .hero
         padding: 0 0 78px
@@ -1758,6 +1906,9 @@
     .hero
         &__monitor
             display: none
+        &__title
+            &--products
+                max-width: 100%
     .title
         font-size: 30px
         line-height: 37px
@@ -1779,6 +1930,24 @@
         &__iphone
             bottom: 120px
             left: 52px
+    .product
+        min-height: 335px
+        &__image
+            height: 161px
+    .characteristic
+        &__property, &__value
+            line-height: 19px
+        &__property
+            max-width: 212px
+    .hero
+        &__product-img
+            width: 335px
+            height: 460px
+@media screen and ( max-width: 400px )
+    .products-wrapper
+        grid-template-columns: repeat(1,minmax(0,255px))
+        justify-content: center
+        transform: translateY(-45px)
 @media screen and ( max-width: 380px )
     .footer
         &__link
@@ -1805,3 +1974,16 @@
         bottom: -530px
     .platform
         min-height: 790px
+    .characteristic
+        &__value, &__property
+            font-size: 14px
+    .hero
+        &__product-img
+            width: 300px
+            height: 400px
+        &__title
+            &--product
+                font-size: 33px
+                line-height: 40px
+    body
+        overflow: hidden

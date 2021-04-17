@@ -47,6 +47,18 @@ module.exports = {
             filename: 'platform.html',
             template: './platform.html'
         }),
+        new HTMLWebpackPlugin({
+            filename: 'products.html',
+            template: './products.html'
+        }),
+        new HTMLWebpackPlugin({
+            filename: 'product.html',
+            template: './product.html'
+        }),
+        new HTMLWebpackPlugin({
+            filename: 'contacts.html',
+            template: './contacts.html'
+        }),
         new CleanWebpackPlugin(),
         new CopyPlugin({
             patterns: [

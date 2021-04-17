@@ -1,0 +1,55 @@
+.products
+    &__wrapper
+        transform: translateY(-112px)
+.products-wrapper
+    display: grid
+    grid-template-columns: repeat(4, minmax(0, 365px))
+    justify-content: space-between
+    grid-row-gap: 40px
+    &__product
+        margin: 0 8px
+.product
+    height: 452px
+    background-color: #fff
+    overflow: hidden
+    border-radius: 10px
+    display: flex
+    flex-direction: column
+    position: relative
+    &__image
+        object-fit: cover
+        width: 100%
+        transform: translateY(-2px)
+        height: 307px
+    &__product-name
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 22px
+        color: $gray
+        padding: 20px 20px 30px
+        max-width: 325px
+        &--bold
+            display: block
+            padding: 0
+            font-weight: 600
+    &__button
+        width: 100%
+        padding: 17px 20px
+        background: linear-gradient(91.45deg, #FF537C 0%, rgba(255, 83, 124, 0.38) 100%)
+        backdrop-filter: blur(10px)
+        font-weight: 600
+        font-size: 18px
+        line-height: 22px
+        color: white
+        display: flex
+        justify-content: center
+        position: absolute
+        bottom: 0
+        left: 0
+        right: 0
+@media screen and ( min-width: 993px )
+    .product
+        &__button
+            &:hover
+                opacity: 0.6

@@ -70,6 +70,18 @@ import AvailablePhones from '../img/platform/available/availablePhones.png';
 import PhoneInt from '../img/platform/interface/phoneInt.png';
 import IphoneInt from '../img/platform/interface/iphoneInt.png';
 import IpadInt from '../img/platform/interface/ipadInt.png';
+import ProductsBg from '../img/products/main/productsBg.jpg';
+import PrLine from '../img/products/main/prLine.png';
+import Pr1 from '../img/products/products/pr1.jpg';
+import Pr2 from '../img/products/products/pr2.jpg';
+import Pr3 from '../img/products/products/pr3.jpg';
+import Pr4 from '../img/products/products/pr4.jpg';
+import Pr5 from '../img/products/products/pr5.jpg';
+import Pr6 from '../img/products/products/pr6.jpg';
+import Pr7 from '../img/products/products/pr7.jpg';
+import Pr8 from '../img/products/products/pr8.jpg';
+import Product from '../img/product/main/product.jpg';
+import ContactsBg from '../img/contacts/main/contactsBg.png';
 // Шрифты
 import Proxima1 from '../fonts/ProximaNova-Regular.woff2';
 import Proxima2 from '../fonts/ProximaNova-Bold.woff2';
@@ -82,6 +94,7 @@ import painSlider from './modules/painSlider';
 import dropdownCard from './modules/dropdownCard';
 import sendForm from './modules/sendForm';
 import dignitiesSlider from './modules/dignitiesSlider';
+import map from './modules/map';
 
 // Мобильное меню
 mobileMenu();
@@ -92,8 +105,12 @@ trustSlider();
 painSlider();
 dignitiesSlider();
 // Отправка форма и валидация
-sendForm(document.getElementById('feedback-form'));
+try {
+    sendForm(document.getElementById('feedback-form'));
+} catch {};
 // Выпадающий список
 try {
     dropdownCard();
 } catch {};
+// Карта
+map();
