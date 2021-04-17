@@ -91,7 +91,6 @@ import mobileMenu from './modules/mobileMenu';
 import scrollTo from './modules/scrollTo';
 import trustSlider from './modules/trustSlider';
 import painSlider from './modules/painSlider';
-import dropdownCard from './modules/dropdownCard';
 import sendForm from './modules/sendForm';
 import dignitiesSlider from './modules/dignitiesSlider';
 import map from './modules/map';
@@ -107,10 +106,6 @@ dignitiesSlider();
 // Отправка форма и валидация
 try {
     sendForm(document.getElementById('feedback-form'));
-} catch {};
-// Выпадающий список
-try {
-    dropdownCard();
 } catch {};
 // Карта
 map();
